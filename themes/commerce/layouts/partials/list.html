@@ -1,0 +1,19 @@
+{{ range .Paginator.Pages }}
+<div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+        <div class="text-center mt-2">
+            <img src="{{ .Params.thumbnail | absURL }}" width="180px" height="250px">
+        </div>
+        <div class="card-body">
+            <h6 class="card-text">{{ .Title }}</h6>
+            {{ with .Page.Params.Categories }}{{ partial "categories.html" . }}{{ end }}
+            <small><p class="card-text">{{ .Content | truncate 100 }}</p></small>
+            <div class="d-flex justify-content-between align-items-center">
+                <small><a class="title" href="{{ .Params.ExternalLink | default .RelPermalink }}">Details</a></small>
+                <span class="fa fa-star checked"><small class="text-muted"> {{ .Params.ratings }}</small></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}

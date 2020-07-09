@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Thought Provoking Books"
+theme = "commerce"
+paginate = "15"
+
+googleAnalytics = "UA-129728575-7"

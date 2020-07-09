@@ -1,0 +1,6 @@
+<div class="mb-3" style="font-size: medium">
+    {{- range $name, $items := .Site.Taxonomies.categories }}
+    <i class="fas fa-circle-notch"></i>
+    <a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | title | humanize }}</a>
+    {{- end }}
+</div>

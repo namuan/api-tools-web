@@ -1,0 +1,21 @@
+<div class="card flex-md-row mb-4 box-shadow h-md-250">
+    <div class="card-body d-flex flex-column align-items-start">
+        <p class="book-title mb-3">{{ .Title }}</p>
+        {{ with .Page.Params.Categories }}{{ partial "categories.html" . }}{{ end }}
+        <p>{{ .Content | safeHTML }}</p>
+        <div>
+            {{ range $i, $sequence :=  (seq 5) }}
+            {{ if le ($.Params.ratings | math.Floor) $i }}<span class="fa fa-star"></span>{{ else }}<span class="fa fa-star checked"></span>{{ end }}
+            {{ end }}
+        </div>
+        <p class="small">Reviews: <a href="{{ .Params.grLink }}">{{ .Params.reviews | strings.TrimLeft " " | int | lang.NumFmt 0 }}</a></p>
+        <p class="small">Total Ratings: {{ .Params.totalRatings | strings.TrimLeft " " | int | lang.NumFmt 0 }}</p>
+        <div>
+            {{ partial "amz.html" . }}
+            <a href="{{ .Params.amzUS }}/?tag=ibmindbooks20-20">{{ partial "us_svg.html" . }}</a>
+            <a href="{{ .Params.amzUK }}/?tag=ibmindbooks20-21">{{ partial "uk_svg.html" . }}</a>
+            <a href="{{ .Params.amzCA }}/?tag=ibmindbooks00-20">{{ partial "ca_svg.html" . }}</a>
+        </div>
+    </div>
+    <img class="card-img mt-5 mr-2" src="{{ .Params.thumbnail | absURL }}" style="width: 200px; height: 300px;">
+</div>

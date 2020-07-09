@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>{{ partial "header.html" . }}</head>
+<body>
+    <section class="container centered">
+        {{ partial "banner.html" .}}
+        <main role="main">
+            {{ block "content" . }}{{ end }}
+        </main>
+        {{ partial "footer.html" .}}
+    </section>
+    {{ partial "scripts.html" . }}
+
+    {{ template "_internal/google_analytics.html" . }}
+</body>
+</html>

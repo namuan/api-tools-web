@@ -1,0 +1,10 @@
+# Local Netlify folder
+.DS_STORE
+.netlify/
+.idea/
+docs/
+__pycache__/
+.vscode/
+goodread_html_temp/
+scraped-images_temp/
+venv/
