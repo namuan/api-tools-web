@@ -4,7 +4,7 @@ Source code for everything api website
 
 ## Categories
 
-API Resources are currently divided into following categories
+Set up API Resources in following categories
 
 - [ ] Tutorials
 - [ ] Testing
@@ -29,6 +29,9 @@ API Resources are currently divided into following categories
 - [ ] Store links, brief description and categories in database
 - [ ] Store Screenshot for each website in database
 - [ ] Check if Github and mark link as OpenSource (Github)
+- [ ] Generate Markdown page entries for each tool
+- [ ] Customise Hugo theme to display tools with pagination
+- [ ] Domain and publish
 
 ## Reference Websites
 
