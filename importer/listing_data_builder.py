@@ -54,7 +54,7 @@ def create_tool_item(extracted_tool, category, tags):
     )
 
 
-compiled_rgx = re.compile(r'.*\[([\S\s]+)\]\((.*)\)\s.\s(.*)$',
+compiled_rgx = re.compile(r'.*\[([\w\s\-\.]+)\]\((.*)\)\s[\W]?(.*)$',
                           re.IGNORECASE)  # Pass flags like re.IGNORECASE to amend matching process
 
 

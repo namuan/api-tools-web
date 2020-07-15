@@ -26,3 +26,9 @@ echo '
 * [httpbin](https://httpbin.org) – httpbin(1): HTTP Request & Response Service.
 * [badssl](https://badssl.com) – Testing clients against bad SSL configs.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category mocking
+
+echo '
+* [docbox](https://github.com/tmcw/docbox)  REST API documentation generator.
+* [slate](https://github.com/tripit/slate) Beautiful static documentation for your API.
+* [whiteboard](https://github.com/mpociot/whiteboard) Simply write beautiful API documentation.
+' | ./venv/bin/python3 importer/listing_data_builder.py --category documentation --tags "free"
