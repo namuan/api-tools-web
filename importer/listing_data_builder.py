@@ -48,18 +48,21 @@ def create_tool_item(extracted_tool, category, tags):
         short_description=short_description,
         website=website,
         category=category,
-        tags=tags.split(" ") if tags else "",
+        tags=tags,
         screen_shot="",
         long_description=""
     )
 
 
-compiled_rgx = re.compile(r'.*\[(\w+)\]\((.*)\)\s.\s(.*)$',
+compiled_rgx = re.compile(r'.*\[([\S\s]+)\]\((.*)\)\s.\s(.*)$',
                           re.IGNORECASE)  # Pass flags like re.IGNORECASE to amend matching process
 
 
 def extract_data(md_line):
     match = compiled_rgx.search(md_line)
+    if not match:
+        raise SyntaxError("Unable to match regex with line: {}".format(md_line))
+
     return match.groups() if match else tuple()
 
 
@@ -68,14 +71,17 @@ def read_instream(list_of_tools, category, tags):
 
 
 def upsert(api_resource):
+    if not api_resource:
+        return
+
     try:
         table = data_store.table_for("api_resources")
         table.upsert(
             api_resource,
             ['name'],
         )
-    except:
-        print("Error saving: {}".format(api_resource))
+    except Exception as e:
+        print("Error saving: {}".format(str(e)))
 
 
 def process_data(api_resources):

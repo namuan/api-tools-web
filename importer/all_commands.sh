@@ -2,6 +2,8 @@
 # This file will capture all the commands executed during the process of importing data
 # So that it can be re-run if needed
 
+rm api_tools_web.db
+
 echo '
 * [Firecamp](https://firecamp.io) – Protocol agnostic API testing client which help you test and manage RestAPIs, GraphQL, Websocket and many more.
 * [httpie](https://github.com/jkbrzt/httpie) – Command line HTTP client, far more dev-friendly than `curl`.
@@ -23,4 +25,4 @@ echo '
 * [httpstat.us](https://httpstat.us) – A super simple service for generating different HTTP codes.
 * [httpbin](https://httpbin.org) – httpbin(1): HTTP Request & Response Service.
 * [badssl](https://badssl.com) – Testing clients against bad SSL configs.
-' | ./venv/bin/python3 importer/listing_data_builder.py --category mocking --tags "testing mocking"
+' | ./venv/bin/python3 importer/listing_data_builder.py --category mocking
