@@ -45,4 +45,12 @@ echo '
 * [rest-hapi](https://resthapi.com) A RESTful API generator.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category frameworks
 
+echo '
+* [API Umbrella](http://apiumbrella.io/) Open Source API Management.
+* [KrakenD](http://krakend.io) KrakenD is a stateless, distributed, high-performance API Gateway that helps you effortlessly adopt microservices.
+* [Mashape Kong](https://getkong.org/) The world’s most popular open source API gateway. Built for multi-cloud and hybrid, optimized for microservices and distributed architectures..
+* [Tyk](https://tyk.io/) Open Source API Gateway.
+* [WSO2 API Manager](http://wso2.com/api-management/) open source hybrid API management platform.
+' | ./venv/bin/python3 importer/listing_data_builder.py --category "api-gateway"
+
 # ' | ./venv/bin/python3 importer/listing_data_builder.py --category documentation --tags "saas"
