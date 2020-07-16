@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Thought Provoking Books"
+title = "Everything API"
 theme = "commerce"
 paginate = "15"
 

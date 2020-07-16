@@ -25,8 +25,8 @@ Set up API Resources in following categories
 
 ## Todo
 
-- [ ] Create a new SQLite database
-- [ ] Store links, brief description and categories in database
+- [x] Create a new SQLite database
+- [x] Store links, brief description and categories in database
 - [ ] Store Screenshot for each website in database
 - [ ] Check if Github and mark link as OpenSource (Github)
 - [ ] Generate Markdown page entries for each tool
@@ -37,7 +37,7 @@ Set up API Resources in following categories
 
 - [x] https://github.com/Kikobeats/awesome-api
 - [x] https://github.com/marmelab/awesome-rest
-- [~] https://github.com/yosriady/api-development-tools
+- [x] https://github.com/yosriady/api-development-tools
 - [ ] https://github.com/mailtoharshit/Awesome-Api-Management-Tools
 - [ ] https://github.com/unicodeveloper/awesome-documentation-tools
 

@@ -54,7 +54,7 @@ def create_tool_item(extracted_tool, category, tags):
     )
 
 
-compiled_rgx = re.compile(r'.*\[([\w\s\-\.]+)\]\((.*)\)\s[\W]?(.*)$',
+compiled_rgx = re.compile(r'.*\[([\w\s\-\.]+)\]\((.*)\)[\s]?[\W]?(.*)$',
                           re.IGNORECASE)  # Pass flags like re.IGNORECASE to amend matching process
 
 
@@ -91,11 +91,6 @@ def process_data(api_resources):
 
 def main():
     args = parse_args()
-    # Category will be provided as argument
-    #  Tags will be provided as argument
-    # List of tools will be provided as input file
-    # Parse each line and construct a ToolItem
-    # Persist each tool item in database table with the category and tags
     list_of_tools = read_instream(args.infile, args.category, args.tags)
     process_data(list_of_tools)
 
