@@ -35,11 +35,11 @@ Set up API Resources in following categories
 
 ## Reference Websites
 
-- https://github.com/Kikobeats/awesome-api
-- https://github.com/marmelab/awesome-rest
-- https://github.com/yosriady/api-development-tools
-- https://github.com/mailtoharshit/Awesome-Api-Management-Tools
-- https://github.com/unicodeveloper/awesome-documentation-tools
+- [x] https://github.com/Kikobeats/awesome-api
+- [x] https://github.com/marmelab/awesome-rest
+- [~] https://github.com/yosriady/api-development-tools
+- [ ] https://github.com/mailtoharshit/Awesome-Api-Management-Tools
+- [ ] https://github.com/unicodeveloper/awesome-documentation-tools
 
 ## Theme
 
