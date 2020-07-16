@@ -32,3 +32,17 @@ echo '
 * [slate](https://github.com/tripit/slate) Beautiful static documentation for your API.
 * [whiteboard](https://github.com/mpociot/whiteboard) Simply write beautiful API documentation.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category documentation --tags "free"
+
+echo '
+* [RapidAPI](https://docs.rapidapi.com/docs) API Marketplace.
+* [Readme.io](https://readme.io/) Beautiful, personalized, interactive developer hubs.
+' | ./venv/bin/python3 importer/listing_data_builder.py --category documentation --tags "saas"
+
+echo '
+* [Loopback](http://loopback.io) A highly extensible Node.js and TypeScript framework for building APIs and microservices.
+* [Sails.js](http://sailsjs.org) Sails makes it easy to build custom, enterprise-grade Node.js apps.
+* [FastAPI](https://github.com/tiangolo/fastapi) FastAPI framework, high performance, easy to learn, fast to code, ready for production.
+* [rest-hapi](https://resthapi.com) A RESTful API generator.
+' | ./venv/bin/python3 importer/listing_data_builder.py --category frameworks
+
+# ' | ./venv/bin/python3 importer/listing_data_builder.py --category documentation --tags "saas"
