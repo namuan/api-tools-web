@@ -157,7 +157,6 @@ echo '
 * [DuckRails](https://github.com/iridakos/duckrails) - Mock quickly & dynamically API endpoints.
 - [Beeceptor](https://beeceptor.com): An HTTP-proxy for rest APIs - inspect and build mock APIs.
 - [MockBin](https://mockbin.com/): Generate mock HTTP endpoints.
-- [RequestBin](https://requestb.in/): Inspect and debug webhook POST requests.
 - [httpbin](http://httpbin.org): Templated responses for testing various scenarios for HTTP requests.
 - [Json-Server](https://github.com/typicode/json-server) Full fake REST API with zero coding.
 - [Mockoon](https://mockoon.com): Desktop API mocking tool.
@@ -216,7 +215,7 @@ echo '
 - [Camel](https://camel.apache.org/): Empowers you to define routing and mediation rules in a variety of domain-specific languages, including a Java-based fluent API, Spring or Blueprint XML configuration files, and a Scala DSL.
 - [HAProxy](http://www.haproxy.org/): Reliable, high Performance TCP/HTTP load balancer.
 - [OpenResty](https://openresty.org/): Fast web application server built on top of Nginx.
-- [Tengine](http://tengine.taobao.org/): A distribution of Nginx with some advanced features.
+- [Tengine](https://github.com/alibaba/tengine): A distribution of Nginx with some advanced features.
 - [Tyk](https://tyk.io/): Open-source, fast and scalable API gateway, portal and API management platform.
 - [Vulcand](https://github.com/vulcand/vulcand): Programmatic load balancer backed by Etcd.
 - [Zuul](https://github.com/Netflix/zuul): An edge service that provides dynamic routing, monitoring, resiliency, security, and more.
@@ -271,10 +270,8 @@ echo '
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category standards --tags "style-guide"
 
 echo '
-- [Swagger Inspector](https://swagger.io/swagger-inspector/): Test and auto-generate OpenAPI documentation for any API.
 - [Swagger Editor](http://editor.swagger.io/): An editor for designing Swagger specifications.
 - [Swagger Tools and Integrations](https://swagger.io/open-source-integrations/): A list of libraries and frameworks serving the Swagger ecosystem.
-- [API Studio](http://apistudio.io/). Write, mock, and share your Swagger specifications online.
 - [Dredd](https://github.com/apiaryio/dredd): Validate API documentation written in API Blueprint against its backend implementation.
 - [Restlet Studio](https://restlet.com/modules/studio/): Web IDE for API Design.
 - [API Spec Converter](https://lucybot-inc.github.io/api-spec-converter/): Convert between different API spec formats.
@@ -291,7 +288,7 @@ echo '
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category tools --tags "clients hosted"
 
 echo '
-- [Firecamp](https://firecamp.app): API Studio for WebSocket, Rest API and GraphQL.
+- [Firecamp](https://firecamp.io/): API Studio for WebSocket, Rest API and GraphQL.
 - [HTTPie](https://httpie.org/): Command line HTTP client.
 - [HttpMaster](https://www.httpmaster.net/): Desktop tool for REST API testing.
 - [Paw](https://paw.cloud/): REST client for Mac.
@@ -411,7 +408,6 @@ echo '
 - [Dream Factory](https://github.com/dreamfactorysoftware/dreamfactory): Turn any database into an API platform.
 * [Runscope](https://www.runscope.com/) - Automated API Monitoring & Testing.
 * [Ping-API](https://ping-api.com/) - Automated API Monitoring & Testing.
-* [import.io Magic](https://magic.import.io/) - Create a REST API from any website in one click.
 * [Apiary](https://apiary.io/) - Collaborative design, instant API mock, generated documentation, integrated code samples, debugging and automated testing.
 * [Amazon API Gateway](https://aws.amazon.com/api-gateway/) - Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
 * [3scale](https://www.3scale.net/) - Nginx based API gateway to integrate internal and external API services with 3scale API Management Platform.
@@ -422,7 +418,6 @@ echo '
 * [ng-admin](https://github.com/marmelab/ng-admin) - Add an AngularJS admin GUI to any RESTful API.
 * [swagger-codegen](https://github.com/swagger-api/swagger-codegen) - Auto generation of client libraries or server stubs given an OpenAPI specification.
 * [Lumber](https://github.com/ForestAdmin/lumber) - Generate the admin interface of your application.
-- [Mashape](https://www.mashape.com/): API Marketplace.
 - [Tyk](https://tyk.io/features): API Developer Portal on top of API gateway, make your API gateway easier to be used by developers.
 - [APIMATIC](https://apimatic.io/developer-experience-portal): Instantly build an API Portal with SDKs, Live Code Samples, Test Cases, API Transformation and language specific Docs & Reference - tailored for your API.
 - [DWOLLA](https://developers.dwolla.com): Simple and powerful API for ACH transfers.

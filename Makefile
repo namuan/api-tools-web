@@ -19,6 +19,15 @@ commit-all: ## Push generated documentation to Github
 	git commit -m "Updated docs"
 	git push origin master
 
+database: ## Re-build database
+	./importer/all_commands.sh
+
+screenshots: ## Re-download screenshots from websites
+	./importer/all_screenshots.sh
+
+deps: ## Re-install dependencies
+	./venv/bin/pip install -r importer/requirements.txt
+
 serve: ## Serve site locally
 	open http://localhost:1313
 	hugo server -D --disableFastRender

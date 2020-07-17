@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
+import argparse
 import asyncio
 import os
-import time
 from pathlib import Path
 
-import argparse
+import time
 from pyppeteer import launch
 from slug import slug
 
@@ -58,21 +58,29 @@ async def main():
     browser = await launch(headless=False, defaultViewport=None)
     table = data_store.table_for("api_resources")
     for entry in table.find():
-        tool_name = entry["category"] + "-" + slug(entry["name"])
-        screen_shot_filename = "{}.png".format(screenshots_dir.joinpath(tool_name))
         website_url = entry["website"]
-        print("Processing {}".format(website_url))
-        browser, page = await open_site(browser, website_url, screenshots_dir.as_posix())
-        if not github_signup_dismissed and is_github_page(website_url):
-            await dismiss_signup(page)
-        await page.screenshot({'path': screen_shot_filename})
-        await page.close()
-        entry["screen_shot"] = screen_shot_filename
+        tool_name = "{}-{}.png".format(entry["category"], slug(entry["name"]))
+        screen_shot_path = screenshots_dir.joinpath(tool_name)
+
+        if screen_shot_path.exists():
+            print("Skipping {} as it already exists".format(website_url))
+        else:
+            print("Processing {}".format(website_url))
+            try:
+                browser, page = await open_site(browser, website_url, screenshots_dir.as_posix())
+                if not github_signup_dismissed and is_github_page(website_url):
+                    await dismiss_signup(page)
+                await page.screenshot({'path': screen_shot_path.as_posix()})
+                await page.close()
+                time.sleep(3)
+            except Exception as e:
+                print("Error processing: {} - {}".format(website_url, str(e)))
+
+        entry["screen_shot"] = screen_shot_path.as_posix()
         table.upsert(
             entry,
             ['name'],
         )
-        time.sleep(3)
 
 
 if __name__ == "__main__":
