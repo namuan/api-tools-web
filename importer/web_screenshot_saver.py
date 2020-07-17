@@ -1,9 +1,13 @@
 #!/usr/bin/env python
 
-import argparse
+import asyncio
 import os
-import re
+import time
 from pathlib import Path
+
+import argparse
+from pyppeteer import launch
+from slug import slug
 
 from importer.data_store import data_store
 
@@ -24,81 +28,52 @@ def parse_args():
     return parser.parse_args()
 
 
-def create_tool_item(extracted_tool, category, tags):
-    if not extracted_tool:
-        return
-
-    name, website, short_description = extracted_tool
-
-    return dict(
-        name=name,
-        short_description=short_description,
-        website=website,
-        category=category,
-        tags=tags,
-        screen_shot="",
-        long_description=""
-    )
+async def open_site(browser, website_url, screenshot_dir):
+    page = await browser.newPage()
+    await page._client.send('Page.setDownloadBehavior', {'behavior': 'allow', 'downloadPath': screenshot_dir})
+    await page.goto(website_url)
+    return browser, page
 
 
-compiled_rgx = re.compile(r'.*\[([\w\s\-\.]+)\]\((.*)\)[\s]?[\W]?(.*)$',
-                          re.IGNORECASE)  # Pass flags like re.IGNORECASE to amend matching process
+def is_github_page(website_url):
+    return "github" in website_url
 
 
-def extract_data(md_line):
-    match = compiled_rgx.search(md_line)
-    if not match:
-        raise SyntaxError("Unable to match regex with line: {}".format(md_line))
-
-    return match.groups() if match else tuple()
+github_signup_dismissed = False
 
 
-def read_instream(list_of_tools, category, tags):
-    return [create_tool_item(extract_data(tool), category, tags) for tool in list_of_tools if tool.strip()]
+async def dismiss_signup(page):
+    global github_signup_dismissed
+    selector = "signup-prompt > div > div > button"
+    dismiss_button = await page.querySelector(selector)
+    await dismiss_button.click()
+    github_signup_dismissed = True
 
 
-def upsert(api_resource):
-    if not api_resource:
-        return
-
-    try:
-        table = data_store.table_for("api_resources")
-        table.upsert(
-            api_resource,
-            ['name'],
-        )
-    except Exception as e:
-        print("Error saving: {}".format(str(e)))
-
-
-def capture_screenshot(api_resource, screenshots_dir):
-    print("Processing {}".format(api_resource["website"]))
-    return "Screenshot here"
-
-
-def main():
+async def main():
     args = parse_args()
     target_dir = args.targetdir
     screenshots_dir = Path(target_dir)
     screenshots_dir.mkdir(exist_ok=True)
-
+    browser = await launch(headless=False, defaultViewport=None)
     table = data_store.table_for("api_resources")
     for entry in table.find():
-        screen_shot_filename = capture_screenshot(entry, screenshots_dir)
+        tool_name = entry["category"] + "-" + slug(entry["name"])
+        screen_shot_filename = "{}.png".format(screenshots_dir.joinpath(tool_name))
+        website_url = entry["website"]
+        print("Processing {}".format(website_url))
+        browser, page = await open_site(browser, website_url, screenshots_dir.as_posix())
+        if not github_signup_dismissed and is_github_page(website_url):
+            await dismiss_signup(page)
+        await page.screenshot({'path': screen_shot_filename})
+        await page.close()
         entry["screen_shot"] = screen_shot_filename
         table.upsert(
             entry,
             ['name'],
         )
-    # open database
-    # start browser
-    # select all entries in table
-    # for each entry
-    # capture screenshot
-    # save in target directory
-    # list_of_tools = read_instream(args.infile, args.category, args.tags)
-    # process_data(list_of_tools)
+        time.sleep(3)
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.get_event_loop().run_until_complete(main())

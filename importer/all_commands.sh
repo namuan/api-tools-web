@@ -31,7 +31,7 @@ echo '
 echo '
 * [Chaos](https://github.com/mesosphere/chaos) - A lightweight framework for writing REST services in Scala.
 - [Colossus](https://github.com/tumblr/colossus): I/O and microservice library for Scala.
-- [Finatra](https://twitter.github.io/finatra/): Fast, testable, Scala HTTP services built on Twitter-Server and Finagle.
+- [Finatra](https://github.com/twitter/finatra): Fast, testable, Scala HTTP services built on Twitter-Server and Finagle.
 - [Play](https://www.playframework.com/): The high velocity web framework for Java and Scala.
 - [Scalatra](http://www.scalatra.org/): Simple, accessible and free web micro-framework.
 - [Skinny Micro](https://github.com/skinny-framework/skinny-micro): Micro-web framework to build servlet applications in Scala.

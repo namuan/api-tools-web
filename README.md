@@ -27,7 +27,7 @@ Set up API Resources in following categories
 
 - [x] Create a new SQLite database
 - [x] Store links, brief description and categories in database
-- [ ] Store Screenshot for each website in database
+- [x] Store Screenshot for each website in database
 - [ ] Check if Github and mark link as OpenSource (Github)
 - [ ] Generate Markdown page entries for each tool
 - [ ] Customise Hugo theme to display tools with pagination
@@ -45,3 +45,8 @@ Set up API Resources in following categories
 
 - https://github.com/StartBootstrap/startbootstrap-shop-homepage
 
+## Commands
+
+```bash
+$ sqlite3 api_tools_web.db "select website from api_resources" > websites.txt
+```
