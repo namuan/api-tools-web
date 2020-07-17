@@ -11,7 +11,7 @@ rm api_tools_web.db
 
 echo '
 * [Rest for Haskell](https://github.com/silkapp/rest) - This package allows you to create REST APIs in Haskell. These APIs can be run in different web frameworks. They can also be used to automatically generate documentation as well as client libraries.
-- [Scotty](https://github.com/scotty-web/scotty): Micro web framework inspired by Sinatra(Ruby), using WAI and Warp.
+- [Scotty](https://github.com/scotty-web/scotty) - Micro web framework inspired by Sinatra, using WAI and Warp.
 - [Spock](https://github.com/agrafix/Spock): Another Haskell web framework for rapid development.
 - [Servant](https://github.com/haskell-servant/servant): A Type-Level Web DSL.
 - [Yesod](https://github.com/yesodweb/yesod): The Haskell RESTful web framework.
@@ -90,11 +90,11 @@ echo '
 * [Django REST framework](http://www.django-rest-framework.org/) - Powerful and flexible toolkit that makes it easy to build Web APIs.
 * [django-tastypie](http://tastypieapi.org/) - Creating delicious APIs for Django apps.
 * [flask-restful](http://flask-restful.readthedocs.org/) - Extension for Flask that adds support for quickly building REST APIs.
-* [flask-restless](https://flask-restless.readthedocs.org/en/latest/) - Flask extension for generating ReSTful APIs for database models defined with SQLAlchemy (or Flask-SQLAlchemy).
+* [flask-restless](https://flask-restless.readthedocs.org/en/latest/) - Flask extension for generating ReSTful APIs for database models defined with SQLAlchemy or Flask-SQLAlchemy.
 * [hug](http://www.hug.rest/) - Lightweight and fast API Framework.
 * [sandman](https://github.com/jeffknupp/sandman) - Automated REST APIs for existing database-driven systems.
 * [restless](http://restless.readthedocs.org/en/latest/) - Framework agnostic REST framework based on lessons learned from TastyPie.
-* [savory-pie](https://github.com/RueLaLa/savory-pie/) - REST API building library (django, and others).
+* [savory-pie](https://github.com/RueLaLa/savory-pie/) - REST API building library for django, and others.
 * [Python Eve](http://python-eve.org/) - Eve is an open source Python REST API framework designed for human beings. It allows to effortlessly build and deploy highly customizable, fully featured RESTful Web Services.
 * [Ramses](https://ramses.readthedocs.org/en/stable/) - Makes RAML files executable by generating production-ready APIs from them at runtime.
 * [Flask-Potion](https://github.com/biosustain/potion) - Flask-Potion is a powerful Flask extension for building RESTful JSON APIs. It also provides several Clients for easier access to the API.
@@ -121,7 +121,6 @@ echo '
 * [resty](https://github.com/micha/resty) – Little command line REST client that you can use in pipelines (bash or zsh).
 * [TestMace](https://testmace.com) – A modern powerful crossplatform tool for working with API and creating automated API tests.
 * [httpie](https://github.com/jkbrzt/httpie) - Command line HTTP client, far more dev-friendly than `curl`.
-* [Postman REST Client](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm) - Chrome extension essential to test manually REST API.
 * [resty](https://github.com/micha/resty) - Little command line REST client that you can use in pipelines (bash or zsh).
 * [jq](https://github.com/stedolan/jq) - Command line JSON processor, to use in combination with a command-line HTTP client like cURL.
 * [HttpMaster](http://www.httpmaster.net) - GUI tool for testing REST APIs and services. Windows OS only.
@@ -185,7 +184,7 @@ echo '
 - [Readme](https://readme.io/): API Documentation Hosting.
 - [Embed curl](https://www.embedcurl.com/): Embeddable curl commands on the web.
 - [Gelato](https://gelato.io/): Create developer portals for your API.
-- [API Docs](https://api-docs.io/): Hosted public API documentation for OAS (Swagger) and RAML specs.
+- [API Docs](https://api-docs.io/) - Hosted public API documentation for OpenAPI and RAML specs.
 - [Docula](https://docu.la/): Documentation using Github and OpenAPI standards.
 - [Docbox](https://github.com/tmcw/docbox): REST API documentation generator, using Markdown.
 - [widdershins](https://github.com/Mermade/widdershins): REST API documentation generator from OpenAPI 3.0 / Swagger 2.0 / AsyncAPI 1.x / Semoasa 0.1.0 definition
@@ -203,7 +202,7 @@ echo '
 * [KrakenD](http://krakend.io) KrakenD is a stateless, distributed, high-performance API Gateway that helps you effortlessly adopt microservices.
 * [API Umbrella](https://github.com/NREL/api-umbrella) - API management platform for exposing web services, with web interface and analytics, written in Lua.
 * [WSO2 API Management](https://github.com/wso2/product-apim) - API management tool with lightweight gateway and API lifecycle manangement, written in Java.
-* [Express Gateway](https://github.com/ExpressGateway/express-gateway) - Microservices API Gateway built on top of ExpressJS (Node.js).
+* [Express Gateway](https://github.com/ExpressGateway/express-gateway) - Microservices API Gateway built on top of ExpressJS.
 * [KrakenD](https://github.com/devopsfaith/krakend) Ultra performant API Gateway with middleware. Written in Go.
 - [Ambassador API Gateway](https://www.getambassador.io/): Ambassador is a specialized control plane that translates Kubernetes annotations to Envoy configuration. All traffic is directly handled by the high-performance Envoy Proxy.
 - [AWS API Gateway](https://aws.amazon.com/api-gateway/): Traffic management, authorization and access control, monitoring, and API version management.
@@ -211,7 +210,7 @@ echo '
 - [APIAxle](https://github.com/apiaxle/apiaxle/): Proxy that sits in front of your APIs.
 - [APIGrove](https://apigrove.github.io/apigrove/): API manager built in Java on top of Fuse ESB.
 * [Apigee](https://apigee.com) - Apigee is the leading provider of API technology and services for enterprises and developers.
-- [Pushpin](http://pushpin.org): Proxy for both request/response or streaming (long poll) of responses
+- [Pushpin](http://pushpin.org): Proxy for both request/response or streaming of responses
 - [Strongloop](https://github.com/strongloop/microgateway): nodejs based API Gateway
 - [Fusio](http://www.fusio-project.org/): PHP based open source API management platform
 - [Camel](https://camel.apache.org/): Empowers you to define routing and mediation rules in a variety of domain-specific languages, including a Java-based fluent API, Spring or Blueprint XML configuration files, and a Scala DSL.
@@ -222,10 +221,10 @@ echo '
 - [Vulcand](https://github.com/vulcand/vulcand): Programmatic load balancer backed by Etcd.
 - [Zuul](https://github.com/Netflix/zuul): An edge service that provides dynamic routing, monitoring, resiliency, security, and more.
 - [Kong](https://getkong.org/): An open-source management layer for APIs, delivering high performance and reliability.
-- [Janus](https://github.com/hellofresh/janus): A lightweight API Gateway written in Go by [Hello Fresh](https://engineering.hellofresh.com).
+- [Janus](https://github.com/hellofresh/janus): A lightweight API Gateway written in Go.
 - [fabio](https://github.com/fabiolb/fabio): A fast, modern, zero-conf load balancing HTTP(S) router for deploying microservices managed by [consul](https://www.consul.io) by eBay.
-- [Traefik](https://github.com/containous/traefik): Træfik (pronounced like traffic) is a modern HTTP reverse proxy and load balancer written in Go.
-- [Oathkeeper](https://github.com/ory/oathkeeper): OIdentity & Access Proxy (IAP) that authorizes HTTP requests based on sets of rules. Integrates with ORY Hydra.
+- [Traefik](https://github.com/containous/traefik): Træfik is a modern HTTP reverse proxy and load balancer written in Go.
+- [Oathkeeper](https://github.com/ory/oathkeeper): OIdentity & Access Proxy that authorizes HTTP requests based on sets of rules. Integrates with ORY Hydra.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category "api-management"
 
 echo '
@@ -233,7 +232,7 @@ echo '
 - [API Security checklist](https://github.com/shieldfy/API-Security-Checklist): Checklist of the most important security countermeasures when designing, testing, and releasing your API.
 - [Ory Hydra](https://github.com/ory/hydra): OAuth2 server with OpenID Connect written in Go.
 - [Approov](https://approov.io/): Mobile App Attestation to ban API abuse by verifying the software that is accessing your API. User authentication is not enough!
-- [42Crunch](https://42crunch.com/): API Security platform that includes static analysis, dynamic testing (scan), and runtime protection (API firewall.)
+- [42Crunch](https://42crunch.com/) - API Security platform that includes static analysis, dynamic testing scan, and runtime protection wiht API firewall.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category "api-security" --tags "security"
 
 echo '
@@ -246,9 +245,9 @@ echo '
 * [RAML](http://raml.org/) - Simple and succinct way to describe RESTful API.
 * [JSend](http://labs.omniti.com/labs/jsend) - Simple specification that lays down some rules for how JSON responses from web servers should be formatted.
 * [OData](http://www.odata.org/) - Open protocol to allow the creation and consumption of queryable and interoperable RESTful APIs. Quite complex.
-* [HAL](https://tools.ietf.org/html/draft-kelly-json-hal-06) - Simple format that gives a consistent and easy way to hyperlink between resources in your API (see: [HATEOAS](#hateoas)).
-* [JSON-LD](http://json-ld.org/) - Standard for describing Linked Data and hypermedia relations in JSON (W3C).
-* [Hydra](http://www.hydra-cg.com/) - Vocabulary for Hypermedia-Driven Web APIs (W3C).
+* [HAL](https://tools.ietf.org/html/draft-kelly-json-hal-06) - Simple format that gives a consistent and easy way to hyperlink between resources in your API.
+* [JSON-LD](http://json-ld.org/) - Standard for describing Linked Data and hypermedia relations in JSON.
+* [Hydra](http://www.hydra-cg.com/) - Vocabulary for Hypermedia-Driven Web APIs.
 * [Schema.org](http://schema.org) - Collection of schemas describing common data models.
 * [OpenAPI](https://openapis.org/) - Formerly known as the Swagger Specification, OpenAPI specifcation is the world’s most popular description format for defining Restful APIs.
 - [API Blueprint](https://github.com/apiaryio/api-blueprint) A powerful high-level API description language for web APIs.
@@ -275,7 +274,6 @@ echo '
 - [Swagger Inspector](https://swagger.io/swagger-inspector/): Test and auto-generate OpenAPI documentation for any API.
 - [Swagger Editor](http://editor.swagger.io/): An editor for designing Swagger specifications.
 - [Swagger Tools and Integrations](https://swagger.io/open-source-integrations/): A list of libraries and frameworks serving the Swagger ecosystem.
-- [OpenAPI Spec Tooling](http://definitions.apievangelist.com/#Tools): A list of libraries and frameworks serving the OpenAPI ecosystem.
 - [API Studio](http://apistudio.io/). Write, mock, and share your Swagger specifications online.
 - [Dredd](https://github.com/apiaryio/dredd): Validate API documentation written in API Blueprint against its backend implementation.
 - [Restlet Studio](https://restlet.com/modules/studio/): Web IDE for API Design.
@@ -337,7 +335,7 @@ echo '
 echo '
 * [RESTClient](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
 * [Spyke](https://github.com/balvig/spyke) - Interact with REST services in an ActiveRecord-like manner.
-* [excon](https://github.com/excon/excon) - Usable, fast, simple Ruby HTTP 1.1. It works great as a general HTTP(s) client and is particularly well suited to usage in API clients.
+* [excon](https://github.com/excon/excon) - Usable, fast, simple Ruby HTTP 1.1. It works great as a general HTTP client and is particularly well suited to usage in API clients.
 * [httparty](https://github.com/jnunemaker/httparty) - Makes HTTP fun again!
 * [raml-ruby-client-generator](https://github.com/zlx/raml-ruby-client-generator) - Auto generate API client from a RAML file.
 - [Net-HTTP](https://apidock.com/ruby/Net/HTTP): An HTTP client API for Ruby.
@@ -385,7 +383,7 @@ echo '
 * [Negotiation](https://github.com/willdurand/Negotiation) - Content negotiation library.
 * [Drest](https://github.com/leedavis81/drest) - Library for exposing Doctrine entities as REST resource endpoints.
 * [Restler](https://github.com/Luracast/Restler) - Lightweight framework to expose PHP methods as RESTful web API.
-* [HAL](https://github.com/blongden/hal) - Hypertext Application Language (HAL) builder library.
+* [HAL](https://github.com/blongden/hal) - Hypertext Application Language builder library.
 * [Apigility](https://github.com/zfcampus/zf-apigility-skeleton) - API builder built with Zend Framework 2.
 * [phprest](https://github.com/phprest/phprest) - Specialized REST microframework for PHP.
 * [Hateoas](https://github.com/willdurand/Hateoas) - PHP library to support implementing representations for HATEOAS REST web services.
@@ -422,7 +420,7 @@ echo '
 * [Beeceptor](https://beeceptor.com/) - An HTTP inspecting, mocking and proxing service. Gives named endpoints for creating mock API endpoints and simulate responses.
 * [react-admin](https://github.com/marmelab/react-admin) - Add a ReactJS admin GUI to any RESTful API.
 * [ng-admin](https://github.com/marmelab/ng-admin) - Add an AngularJS admin GUI to any RESTful API.
-* [swagger-codegen](https://github.com/swagger-api/swagger-codegen) - Auto generation of client libraries or server stubs given an OpenAPI specification (formerly known as the Swagger Specification).
+* [swagger-codegen](https://github.com/swagger-api/swagger-codegen) - Auto generation of client libraries or server stubs given an OpenAPI specification.
 * [Lumber](https://github.com/ForestAdmin/lumber) - Generate the admin interface of your application.
 - [Mashape](https://www.mashape.com/): API Marketplace.
 - [Tyk](https://tyk.io/features): API Developer Portal on top of API gateway, make your API gateway easier to be used by developers.
