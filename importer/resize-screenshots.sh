@@ -1,0 +1,1 @@
+ls screenshots | while read -r line; do convert -resize 800x600 screenshots/"$line" min-screenshots/"$line"; done

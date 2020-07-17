@@ -37,6 +37,10 @@ def parse_args():
     return parser.parse_args()
 
 
+def is_opensource(website):
+    return "github" in website
+
+
 def create_tool_item(extracted_tool, category, tags):
     if not extracted_tool:
         return
@@ -50,7 +54,8 @@ def create_tool_item(extracted_tool, category, tags):
         category=category,
         tags=tags,
         screen_shot="",
-        long_description=""
+        long_description="",
+        is_opensource=is_opensource(website)
     )
 
 

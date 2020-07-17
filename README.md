@@ -28,7 +28,8 @@ Set up API Resources in following categories
 - [x] Create a new SQLite database
 - [x] Store links, brief description and categories in database
 - [x] Store Screenshot for each website in database
-- [ ] Check if Github and mark link as OpenSource (Github)
+- [x] Check if Github and mark link as OpenSource (Github)
+- [x] Generate smaller screenshot to display on website
 - [ ] Generate Markdown page entries for each tool
 - [ ] Customise Hugo theme to display tools with pagination
 - [ ] Domain and publish
