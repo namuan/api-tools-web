@@ -354,7 +354,7 @@ echo '
 * [node-restify](https://github.com/restify/node-restify) - Framework specifically meant for REST API.
 * [Sails.js](http://sailsjs.org/) - Node.js Web framework embedding a command to generate automatically a REST API.
 * [mers](https://github.com/jspears/mers) - Express service exposing Mongoose finders as RESTful API.
-* [Baucis](https://github.com/wprl/baucis) - Build scalable REST API based on your Mongoose entities.
+* [Baucis](https://github.com/wprl/baucis) - Build scalable REST API based on Mongoose, Express and Node.js streams.
 * [flatiron-resourceful](https://github.com/flatiron/resourceful) - Isomorphic Resource engine for JavaScript.
 * [loopback](http://loopback.io/) - Powerful Node.js framework for creating APIs and easily connecting to backend data sources.
 * [Feathers](http://feathersjs.com/) - is a real-time, micro-service web framework that gives you control over your data via RESTful resources, sockets and flexible plug-ins.
@@ -366,7 +366,6 @@ echo '
 - [Express](https://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js.
 - [sailsjs](http://sailsjs.org/): Realtime MVC Framework for Node.js.
 - [Actionhero](https://www.actionherojs.com/): Multi-transport Node.js API server with integrated cluster capabilities and delayed tasks.
-- [Baucis](https://github.com/wprl/baucis): To build
 - [Koa](http://koajs.com/): Next generation web framework for Node.js
 - [Loopback](http://loopback.io/): Node.js framework for creating APIs and easily connecting to backend data sources.
 - [Seneca](http://senecajs.org/): A microservices toolkit for Node.js.
