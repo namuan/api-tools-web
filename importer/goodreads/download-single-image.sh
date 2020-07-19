@@ -1,1 +1,0 @@
-curl -s "$1" | pup 'img#coverImage, span[itemprop="isbn"]' | python3 image_curl_generator.py | sh
