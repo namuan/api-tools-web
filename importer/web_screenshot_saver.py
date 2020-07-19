@@ -9,7 +9,7 @@ import time
 from pyppeteer import launch
 from slug import slug
 
-from importer.data_store import data_store, API_RESOURCES_TABLE_NAME
+from importer.data_store import data_store
 
 ENCODE_IN = "utf-8"
 ENCODE_OUT = "utf-8"
@@ -56,8 +56,7 @@ async def main():
     screenshots_dir = Path(target_dir)
     screenshots_dir.mkdir(exist_ok=True)
     browser = await launch(headless=False, defaultViewport=None)
-    table = data_store.table_for(API_RESOURCES_TABLE_NAME)
-    for entry in table.find():
+    for entry in data_store.tools_database_entries():
         website_url = entry["website"]
         tool_name = "{}-{}.png".format(entry["category"], slug(entry["name"]))
         screen_shot_path = screenshots_dir.joinpath(tool_name)
@@ -77,10 +76,7 @@ async def main():
                 print("Error processing: {} - {}".format(website_url, str(e)))
 
         entry["screen_shot"] = screen_shot_path.as_posix()
-        table.upsert(
-            entry,
-            ['name'],
-        )
+        data_store.update_tool(entry)
 
 
 if __name__ == "__main__":

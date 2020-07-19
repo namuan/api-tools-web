@@ -28,6 +28,7 @@ Set up API Resources in following categories
 ```
 ./importer/all_commands.sh
 ./importer/all_screenshots.sh
+./importer/resize-screenshots.sh
 ./importer/all_md_generator.sh
 ```
 
@@ -38,7 +39,7 @@ Set up API Resources in following categories
 - [x] Store Screenshot for each website in database
 - [x] Check if Github and mark link as OpenSource (Github)
 - [x] Generate smaller screenshot to display on website
-- [ ] Generate Markdown page entries for each tool
+- [x] Generate Markdown page entries for each tool
 - [ ] Customise Hugo theme to display tools with pagination
 - [ ] Domain and publish
 
