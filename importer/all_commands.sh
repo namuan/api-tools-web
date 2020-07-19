@@ -60,7 +60,6 @@ echo '
 * [go-restful](https://github.com/emicklei/go-restful) - A declarative highly readable framework for building restful API.
 * [Goat](https://github.com/bahlo/goat) - Minimalistic REST API server in Go.
 * [Resoursea](https://github.com/resoursea/api) - REST framework for quickly writing resource based services.
-* [Zerver](https://github.com/cosiner/zerver) - Zerver is a expressive, modular, feature completed RESTful framework.
 - [Go-Json-Rest](https://github.com/ant0ine/go-json-rest): Thin layer on top of `net/http` that helps building RESTful APIs easily
 - [gocrud](https://github.com/manishrjain/gocrud): Go library to simplify creating, updating and deleting arbitrary depth structured data — to make building REST services fast and easy.
 - [sleepy](https://github.com/dougblack/sleepy): RESTful micro-framework written in Go.
@@ -70,7 +69,6 @@ echo '
 - [go-restful](https://github.com/emicklei/go-restful): A declarative highly readable framework for building restful API.
 - [Goat](https://github.com/bahlo/goat): Minimalistic REST API server in Go.
 - [Resoursea](https://github.com/resoursea/api): REST framework for quickly writing resource based services.
-- [Zerver](https://github.com/cosiner/zerver): Zerver is a expressive, modular, feature completed RESTful framework.
 - [Fibre](https://github.com/gofiber/fiber): :zap:Fiber is an Express inspired web framework written in Go with coffee.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category servers --tags "go-lang"
 
@@ -142,7 +140,6 @@ echo '
 * [JSON Placeholder](http://jsonplaceholder.typicode.com/) – Free online REST service that you can use whenever you need some fake data.
 * [json-server](https://github.com/typicode/json-server) – Get a full fake REST API with zero coding in less than 30 seconds.
 * [Mocky.io](http://www.mocky.io/) – Free online service to create fake HTTP responses.
-* [Swagger API Mock](https://github.com/bulkismaslom/swagger-api-mock) – Mock RESTful API based on swagger schema
 * [FakeQL](https://fakeql.com/) – Mainly focused on GraphQL, but can mock RESTful APIs, as well.
 * [httpstat.us](https://httpstat.us) – A super simple service for generating different HTTP codes.
 * [httpbin](https://httpbin.org) – httpbin(1): HTTP Request & Response Service.
@@ -155,7 +152,6 @@ echo '
 * [Swagger API Mock](https://github.com/bulkismaslom/swagger-api-mock) - Mock RESTful API based on swagger schema
 * [Request Baskets](https://github.com/darklynx/request-baskets) - Service to collect HTTP requests and inspect them via RESTful API or web UI.
 * [DuckRails](https://github.com/iridakos/duckrails) - Mock quickly & dynamically API endpoints.
-- [Beeceptor](https://beeceptor.com): An HTTP-proxy for rest APIs - inspect and build mock APIs.
 - [MockBin](https://mockbin.com/): Generate mock HTTP endpoints.
 - [httpbin](http://httpbin.org): Templated responses for testing various scenarios for HTTP requests.
 - [Json-Server](https://github.com/typicode/json-server) Full fake REST API with zero coding.
@@ -180,11 +176,8 @@ echo '
 - [prmd](https://github.com/interagent/prmd): JSON Schema tooling: scaffold, verify, and generate documentation from JSON Schema documents.
 - [Aglio](https://github.com/danielgtaylor/aglio): An API Blueprint renderer with theme support that outputs static HTML.
 - [Apiary](https://apiary.io/): Collaborative design, instant API mock, generated documentation, integrated code samples, debugging and automated testing.
-- [Readme](https://readme.io/): API Documentation Hosting.
-- [Embed curl](https://www.embedcurl.com/): Embeddable curl commands on the web.
 - [Gelato](https://gelato.io/): Create developer portals for your API.
 - [API Docs](https://api-docs.io/) - Hosted public API documentation for OpenAPI and RAML specs.
-- [Docula](https://docu.la/): Documentation using Github and OpenAPI standards.
 - [Docbox](https://github.com/tmcw/docbox): REST API documentation generator, using Markdown.
 - [widdershins](https://github.com/Mermade/widdershins): REST API documentation generator from OpenAPI 3.0 / Swagger 2.0 / AsyncAPI 1.x / Semoasa 0.1.0 definition
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category documentation
@@ -194,6 +187,7 @@ echo '
 * [Sails.js](http://sailsjs.org) Sails makes it easy to build custom, enterprise-grade Node.js apps.
 * [FastAPI](https://github.com/tiangolo/fastapi) FastAPI framework, high performance, easy to learn, fast to code, ready for production.
 * [rest-hapi](https://resthapi.com) A RESTful API generator.
+* [swagger-codegen](https://github.com/swagger-api/swagger-codegen) - Auto generation of client libraries or server stubs given an OpenAPI specification.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category frameworks
 
 echo '
@@ -204,7 +198,7 @@ echo '
 * [Express Gateway](https://github.com/ExpressGateway/express-gateway) - Microservices API Gateway built on top of ExpressJS.
 * [KrakenD](https://github.com/devopsfaith/krakend) Ultra performant API Gateway with middleware. Written in Go.
 - [Ambassador API Gateway](https://www.getambassador.io/): Ambassador is a specialized control plane that translates Kubernetes annotations to Envoy configuration. All traffic is directly handled by the high-performance Envoy Proxy.
-- [AWS API Gateway](https://aws.amazon.com/api-gateway/): Traffic management, authorization and access control, monitoring, and API version management.
+* [AWS API Gateway](https://aws.amazon.com/api-gateway/) - AWS API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
 - [API Umbrella](https://apiumbrella.io/): Proxy that sits in front of your APIs.
 - [APIAxle](https://github.com/apiaxle/apiaxle/): Proxy that sits in front of your APIs.
 - [APIGrove](https://apigrove.github.io/apigrove/): API manager built in Java on top of Fuse ESB.
@@ -216,7 +210,7 @@ echo '
 - [HAProxy](http://www.haproxy.org/): Reliable, high Performance TCP/HTTP load balancer.
 - [OpenResty](https://openresty.org/): Fast web application server built on top of Nginx.
 - [Tengine](https://github.com/alibaba/tengine): A distribution of Nginx with some advanced features.
-- [Tyk](https://tyk.io/): Open-source, fast and scalable API gateway, portal and API management platform.
+- [Tyk](https://tyk.io/features): API Developer Portal on top of API gateway, make your API gateway easier to be used by developers.
 - [Vulcand](https://github.com/vulcand/vulcand): Programmatic load balancer backed by Etcd.
 - [Zuul](https://github.com/Netflix/zuul): An edge service that provides dynamic routing, monitoring, resiliency, security, and more.
 - [Kong](https://getkong.org/): An open-source management layer for APIs, delivering high performance and reliability.
@@ -224,6 +218,9 @@ echo '
 - [fabio](https://github.com/fabiolb/fabio): A fast, modern, zero-conf load balancing router for deploying microservices managed by Consul.
 - [Traefik](https://github.com/containous/traefik): Træfik is a modern HTTP reverse proxy and load balancer written in Go.
 - [Oathkeeper](https://github.com/ory/oathkeeper): OIdentity & Access Proxy that authorizes HTTP requests based on sets of rules. Integrates with ORY Hydra.
+* [3scale](https://www.3scale.net/) - Nginx based API gateway to integrate internal and external API services with 3scale API Management Platform.
+- [Gravitee](https://gravitee.io): Easiest to use, most performant and cost-effective Open Source API Platform that helps your organization to secure, publish and analyze your APIs.
+- [Wicked Haufe](https://wicked.haufe.io): A full stack open source solution to API Management, based on Mashape Kong, node.js, and docker.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category "api-management"
 
 echo '
@@ -235,8 +232,9 @@ echo '
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category "api-security" --tags "security"
 
 echo '
-- [Runscope](https://www.runscope.com/): API Performance Monitoring.
-- [Ping-API](https://ping-api.com/): Automated API Testing.
+* [Runscope](https://www.runscope.com/) - Automated API Monitoring & Testing.
+* [Ping-API](https://ping-api.com/) - Automated API Monitoring & Testing.
+* [Moesif](https://www.moesif.com) - API Analytics for Debugging, Monitoring, and Usage Tracking for RESTful and GraphQL.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category "api-monitoring" --tags "monitoring"
 
 echo '
@@ -276,7 +274,7 @@ echo '
 - [Restlet Studio](https://restlet.com/modules/studio/): Web IDE for API Design.
 - [API Spec Converter](https://lucybot-inc.github.io/api-spec-converter/): Convert between different API spec formats.
 - [Prism](http://stoplight.io/platform/prism/): Supercharge any OAS file with mocking, transformations, validations, and more.
-- [Apimatic](https://www.apimatic.io/): Supports API description formats including Swagger, OAI format, RAML, API Blueprint, IO Docs, WADL, Postman Collections and HAR 1.4 and more
+- [Apimatic](https://apimatic.io/developer-experience-portal): Instantly build an API Portal with SDKs, Live Code Samples, Test Cases, API Transformation and language specific Docs Reference tailored for your API.
 - [Mulesoft Anypoint](https://anypoint.mulesoft.com/): Design and publish enterprise-grade APIs using RAML
 - [Sandbox](https://getsandbox.com/): Quick and easy mock RESTful API from API definitions
 - [Restunited](https://restunited.com/): Generate SDK, Documentation with Testing and Debugging
@@ -327,7 +325,7 @@ echo '
 echo '
 * [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
 * [resty](https://github.com/go-resty/resty) - Simple HTTP and REST client for Go inspired by Ruby rest-client.
-' | ./venv/bin/python3 importer/listing_data_builder.py --category clients --tags "go"
+' | ./venv/bin/python3 importer/listing_data_builder.py --category clients --tags "go-lang"
 
 echo '
 * [RESTClient](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
@@ -383,8 +381,7 @@ echo '
 * [Apigility](https://github.com/zfcampus/zf-apigility-skeleton) - API builder built with Zend Framework 2.
 * [phprest](https://github.com/phprest/phprest) - Specialized REST microframework for PHP.
 * [Hateoas](https://github.com/willdurand/Hateoas) - PHP library to support implementing representations for HATEOAS REST web services.
-* [Fusio](https://github.com/apioo/fusio) - Open source API management platform.
-- [API Platform](https://github.com/api-platform/api-platform): API framework on top of Symfony with JSON-LD, Schema.org and Hydra support
+* [Fusio](https://github.com/apioo/fusio) - Fusio is an open source API management platform which helps to build and manage REST APIs. Fusio provides all tools to quickly build an API from different data sources yet it is possible to create complete customized responses.
 - [Dingo API](https://github.com/dingo/api): A RESTful API package for the Laravel and Lumen frameworks
 - [Fractal](https://github.com/thephpleague/fractal): Fractal provides a presentation and transformation layer for complex data output, the like found in RESTful APIs, and works really well with JSON
 - [Yii2 Framework](https://github.com/yiisoft/yii2): Provides a whole set of tools to simplify the task of implementing RESTful Web Service APIs
@@ -398,29 +395,13 @@ echo '
 * [BazingaHateoasBundle](https://github.com/willdurand/BazingaHateoasBundle) - Integrate the [Hateoas](https://github.com/willdurand/Hateoas) library into a Symfony2 application.
 * [Symfony REST Edition](https://github.com/gimler/symfony-rest-edition) - Start with a Symfony2 application with all REST-friendly bundles pre-configured.
 * [NgAdminGeneratorBundle](https://github.com/marmelab/NgAdminGeneratorBundle) - Boostrap ng-admin configuration based on `stanlemon/rest-bundle`.
-* [DunglasApiBundle](https://github.com/dunglas/DunglasApiBundle) - Build a REST API which follow Hydra/JSON-LD specification.
-* [API Platform](https://github.com/api-platform/api-platform) - Specialize Symfony edition for the creation of hypermedia REST APIs.
+- [API Platform](https://github.com/api-platform/api-platform): API framework on top of Symfony with JSON-LD, Schema.org and Hydra support
 * [NelmioApiDocBundle](https://github.com/nelmio/NelmioApiDocBundle) - Generate documentation for your REST API from annotations.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category servers --tags "symphony php"
 
 echo '
 - [Dream Factory](https://github.com/dreamfactorysoftware/dreamfactory): Turn any database into an API platform.
-* [Runscope](https://www.runscope.com/) - Automated API Monitoring & Testing.
-* [Ping-API](https://ping-api.com/) - Automated API Monitoring & Testing.
-* [Apiary](https://apiary.io/) - Collaborative design, instant API mock, generated documentation, integrated code samples, debugging and automated testing.
-* [Amazon API Gateway](https://aws.amazon.com/api-gateway/) - Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
-* [3scale](https://www.3scale.net/) - Nginx based API gateway to integrate internal and external API services with 3scale API Management Platform.
-* [Assertible](https://assertible.com) - Continuously test and monitor your APIs after deployments and across environments.
-* [Moesif](https://www.moesif.com) - API Analytics for Debugging, Monitoring, and Usage Tracking for RESTful and GraphQL.
-* [Beeceptor](https://beeceptor.com/) - An HTTP inspecting, mocking and proxing service. Gives named endpoints for creating mock API endpoints and simulate responses.
 * [react-admin](https://github.com/marmelab/react-admin) - Add a ReactJS admin GUI to any RESTful API.
 * [ng-admin](https://github.com/marmelab/ng-admin) - Add an AngularJS admin GUI to any RESTful API.
-* [swagger-codegen](https://github.com/swagger-api/swagger-codegen) - Auto generation of client libraries or server stubs given an OpenAPI specification.
 * [Lumber](https://github.com/ForestAdmin/lumber) - Generate the admin interface of your application.
-- [Tyk](https://tyk.io/features): API Developer Portal on top of API gateway, make your API gateway easier to be used by developers.
-- [APIMATIC](https://apimatic.io/developer-experience-portal): Instantly build an API Portal with SDKs, Live Code Samples, Test Cases, API Transformation and language specific Docs & Reference - tailored for your API.
-- [DWOLLA](https://developers.dwolla.com): Simple and powerful API for ACH transfers.
-- [Fusio](https://www.fusio-project.org): Fusio is an open source API management platform which helps to build and manage REST APIs. Fusio provides all tools to quickly build an API from different data sources yet it is possible to create complete customized responses.
-- [Gravitee](https://gravitee.io): Open source API platform, unleash the power of your APIs.
-- [Wicked Haufe](https://wicked.haufe.io): Open Source API Management. A full stack open source solution to API Management, based on Mashape Kong, node.js, and docker.
-' | ./venv/bin/python3 importer/listing_data_builder.py --category tosort --tags ""
+' | ./venv/bin/python3 importer/listing_data_builder.py --category misc --tags ""

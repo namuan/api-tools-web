@@ -11,3 +11,4 @@ venv/
 screenshots/
 static/images/tools
 content/tools/
+node_modules/

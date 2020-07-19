@@ -1,0 +1,2049 @@
+[
+    {
+        "uri": "/lunr",
+        "content": "",
+        "tags": []
+    },
+    {
+        "uri": "/tools/api-management-3scale",
+        "title": "3scale",
+        "content": "\nNginx based API gateway to integrate internal and external API services with 3scale API Management Platform.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-ambassador-api-gateway",
+        "title": "Ambassador API Gateway",
+        "content": "\nAmbassador is a specialized control plane that translates Kubernetes annotations to Envoy configuration. All traffic is directly handled by the high-performance Envoy Proxy.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-api-umbrella",
+        "title": "API Umbrella",
+        "content": "\nProxy that sits in front of your APIs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-apiaxle",
+        "title": "APIAxle",
+        "content": "\nProxy that sits in front of your APIs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-apigee",
+        "title": "Apigee",
+        "content": "\nApigee is the leading provider of API technology and services for enterprises and developers.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-apigrove",
+        "title": "APIGrove",
+        "content": "\nAPI manager built in Java on top of Fuse ESB.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-aws-api-gateway",
+        "title": "AWS API Gateway",
+        "content": "\nAWS API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-camel",
+        "title": "Camel",
+        "content": "\nEmpowers you to define routing and mediation rules in a variety of domain-specific languages, including a Java-based fluent API, Spring or Blueprint XML configuration files, and a Scala DSL.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-express-gateway",
+        "title": "Express Gateway",
+        "content": "\nMicroservices API Gateway built on top of ExpressJS.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-fabio",
+        "title": "fabio",
+        "content": "\nA fast, modern, zero-conf load balancing router for deploying microservices managed by Consul.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-gravitee",
+        "title": "Gravitee",
+        "content": "\nEasiest to use, most performant and cost-effective Open Source API Platform that helps your organization to secure, publish and analyze your APIs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-haproxy",
+        "title": "HAProxy",
+        "content": "\nReliable, high Performance TCP/HTTP load balancer.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-janus",
+        "title": "Janus",
+        "content": "\nA lightweight API Gateway written in Go.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-kong",
+        "title": "Kong",
+        "content": "\nAn open-source management layer for APIs, delivering high performance and reliability.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-krakend",
+        "title": "KrakenD",
+        "content": "\nUltra performant API Gateway with middleware. Written in Go.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-oathkeeper",
+        "title": "Oathkeeper",
+        "content": "\nOIdentity & Access Proxy that authorizes HTTP requests based on sets of rules. Integrates with ORY Hydra.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-openresty",
+        "title": "OpenResty",
+        "content": "\nFast web application server built on top of Nginx.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-pushpin",
+        "title": "Pushpin",
+        "content": "\nProxy for both request/response or streaming of responses",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-strongloop",
+        "title": "Strongloop",
+        "content": "\nnodejs based API Gateway",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-tengine",
+        "title": "Tengine",
+        "content": "\nA distribution of Nginx with some advanced features.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-traefik",
+        "title": "Traefik",
+        "content": "\nTræfik is a modern HTTP reverse proxy and load balancer written in Go.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-tyk",
+        "title": "Tyk",
+        "content": "\nAPI Developer Portal on top of API gateway, make your API gateway easier to be used by developers.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-vulcand",
+        "title": "Vulcand",
+        "content": "\nProgrammatic load balancer backed by Etcd.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-wicked-haufe",
+        "title": "Wicked Haufe",
+        "content": "\nA full stack open source solution to API Management, based on Mashape Kong, node.js, and docker.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-wso2-api-management",
+        "title": "WSO2 API Management",
+        "content": "\nAPI management tool with lightweight gateway and API lifecycle manangement, written in Java.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-management-zuul",
+        "title": "Zuul",
+        "content": "\nAn edge service that provides dynamic routing, monitoring, resiliency, security, and more.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/api-monitoring-moesif",
+        "title": "Moesif",
+        "content": "\nAPI Analytics for Debugging, Monitoring, and Usage Tracking for RESTful and GraphQL.",
+        "tags": [
+            "monitoring"
+        ]
+    },
+    {
+        "uri": "/tools/api-monitoring-ping-api",
+        "title": "Ping-API",
+        "content": "\nAutomated API Monitoring & Testing.",
+        "tags": [
+            "monitoring"
+        ]
+    },
+    {
+        "uri": "/tools/api-monitoring-runscope",
+        "title": "Runscope",
+        "content": "\nAutomated API Monitoring & Testing.",
+        "tags": [
+            "monitoring"
+        ]
+    },
+    {
+        "uri": "/tools/api-security-42crunch",
+        "title": "42Crunch",
+        "content": "\nAPI Security platform that includes static analysis, dynamic testing scan, and runtime protection wiht API firewall.",
+        "tags": [
+            "security"
+        ]
+    },
+    {
+        "uri": "/tools/api-security-api-security-checklist",
+        "title": "API Security checklist",
+        "content": "\nChecklist of the most important security countermeasures when designing, testing, and releasing your API.",
+        "tags": [
+            "security"
+        ]
+    },
+    {
+        "uri": "/tools/api-security-approov",
+        "title": "Approov",
+        "content": "\nMobile App Attestation to ban API abuse by verifying the software that is accessing your API. User authentication is not enough!",
+        "tags": [
+            "security"
+        ]
+    },
+    {
+        "uri": "/tools/api-security-online-openapi-file-security-audit",
+        "title": "Online OpenAPI File Security Audit",
+        "content": "\nFree online static analysis of API contract files. Upload the file and get the report.",
+        "tags": [
+            "security"
+        ]
+    },
+    {
+        "uri": "/tools/api-security-ory-hydra",
+        "title": "Ory Hydra",
+        "content": "\nOAuth2 server with OpenID Connect written in Go.",
+        "tags": [
+            "security"
+        ]
+    },
+    {
+        "uri": "/tools/clients-blanket",
+        "title": "blanket",
+        "content": "\nA Ruby API wrapper.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/clients-buzz",
+        "title": "Buzz",
+        "content": "\nAnother lightweight HTTP client.",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/clients-excon",
+        "title": "excon",
+        "content": "\nUsable, fast, simple Ruby HTTP 1.1. It works great as a general HTTP client and is particularly well suited to usage in API clients.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/clients-faraday",
+        "title": "faraday",
+        "content": "\nSimple, but flexible HTTP client library, with support for multiple backends.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/clients-gopencils",
+        "title": "gopencils",
+        "content": "\nSmall and simple package to easily consume REST APIs.",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/clients-guzzle",
+        "title": "Guzzle",
+        "content": "\nHTTP client and framework for consuming RESTful web services.",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/clients-heroics",
+        "title": "heroics",
+        "content": "\nRuby HTTP client for APIs represented with JSON schema.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/clients-httparty",
+        "title": "httparty",
+        "content": "\nMakes HTTP fun again!",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/clients-nestful",
+        "title": "nestful",
+        "content": "\nRuby HTTP/REST client.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/clients-net-http",
+        "title": "Net-HTTP",
+        "content": "\nAn HTTP client API for Ruby.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/clients-raml-client-generator",
+        "title": "raml-client-generator",
+        "content": "\nGenerates static client libs for js.",
+        "tags": [
+            "javascript"
+        ]
+    },
+    {
+        "uri": "/tools/clients-raml-ruby-client-generator",
+        "title": "raml-ruby-client-generator",
+        "content": "\nAuto generate API client from a RAML file.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/clients-refit",
+        "title": "Refit",
+        "content": "\nThe automatic type-safe REST library for .NET Core, Xamarin and .NET",
+        "tags": [
+            "dotnet"
+        ]
+    },
+    {
+        "uri": "/tools/clients-rest-client",
+        "title": "rest-client",
+        "content": "\nSimple HTTP and REST client for Ruby",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/clients-restangular",
+        "title": "Restangular",
+        "content": "\nRestangular is an AngularJS service that simplifies common GET, POST, DELETE, and UPDATE requests with a minimum of client code",
+        "tags": [
+            "javascript"
+        ]
+    },
+    {
+        "uri": "/tools/clients-restclient",
+        "title": "RESTClient",
+        "content": "\nSimple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/clients-restfuljs",
+        "title": "restful.js",
+        "content": "\nJS client for interacting with server-side RESTful resources.",
+        "tags": [
+            "javascript"
+        ]
+    },
+    {
+        "uri": "/tools/clients-restler",
+        "title": "restler",
+        "content": "\nREST client library for node.js.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/clients-resty",
+        "title": "resty",
+        "content": "\nSimple HTTP and REST client for Go inspired by Ruby rest-client.",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/clients-retrofit",
+        "title": "Retrofit",
+        "content": "\nA type-safe HTTP client for Android and Java.",
+        "tags": [
+            "java"
+        ]
+    },
+    {
+        "uri": "/tools/clients-spyke",
+        "title": "Spyke",
+        "content": "\nInteract with REST services in an ActiveRecord-like manner.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/clients-traverson",
+        "title": "traverson",
+        "content": "\nA Hypermedia API/HATEOAS Client for Node.js and the Browser",
+        "tags": [
+            "javascript"
+        ]
+    },
+    {
+        "uri": "/tools/clients-unirest-for-nodejs",
+        "title": "unirest for Node.js",
+        "content": "\nSimplified, lightweight HTTP client library.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/clients-unirest-for-php",
+        "title": "unirest for PHP",
+        "content": "\nSimplified, lightweight HTTP client library.",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/clients-webanchor",
+        "title": "WebAnchor",
+        "content": "\nWeb Anchor provides type-safe, testable and flexible access to web resources.",
+        "tags": [
+            "dotnet"
+        ]
+    },
+    {
+        "uri": "/tools/documentation-aglio",
+        "title": "Aglio",
+        "content": "\nAn API Blueprint renderer with theme support that outputs static HTML.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-api-doc",
+        "title": "API doc",
+        "content": "\nInline Documentation for RESTful web APIs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-api-docs",
+        "title": "API Docs",
+        "content": "\nHosted public API documentation for OpenAPI and RAML specs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-apiary",
+        "title": "Apiary",
+        "content": "\nCollaborative design, instant API mock, generated documentation, integrated code samples, debugging and automated testing.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-docbox",
+        "title": "Docbox",
+        "content": "\nREST API documentation generator, using Markdown.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-embed-curl",
+        "title": "Embed curl",
+        "content": "\nEmbeddable curl commands on the web.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-gelato",
+        "title": "Gelato",
+        "content": "\nCreate developer portals for your API.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-prmd",
+        "title": "prmd",
+        "content": "\nJSON Schema tooling: scaffold, verify, and generate documentation from JSON Schema documents.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-raml2html",
+        "title": "raml2html",
+        "content": "\nGenerates HTML documentation from a RAML file.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-rapidapi",
+        "title": "RapidAPI",
+        "content": "\nAPI Marketplace.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-readme",
+        "title": "Readme",
+        "content": "\nAPI Documentation Hosting.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-readmeio",
+        "title": "Readme.io",
+        "content": "\nBeautiful, personalized, interactive developer hubs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-redoc",
+        "title": "ReDoc",
+        "content": "\nOpenAPI/Swagger-generated API Reference Documentation.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-slate",
+        "title": "Slate",
+        "content": "\nStatic site generated documentation for your API.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-swagger-ui",
+        "title": "Swagger UI",
+        "content": "\nDynamically generate documentation from a Swagger-compliant API.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-swagger",
+        "title": "Swagger",
+        "content": "\nDocumentation/querying web interface for REST APIs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-whiteboard",
+        "title": "whiteboard",
+        "content": "\nSimply write beautiful API documentation.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/documentation-widdershins",
+        "title": "widdershins",
+        "content": "\nREST API documentation generator from OpenAPI 3.0 / Swagger 2.0 / AsyncAPI 1.x / Semoasa 0.1.0 definition",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/frameworks-fastapi",
+        "title": "FastAPI",
+        "content": "\nFastAPI framework, high performance, easy to learn, fast to code, ready for production.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/frameworks-swagger-codegen",
+        "title": "swagger-codegen",
+        "content": "\nAuto generation of client libraries or server stubs given an OpenAPI specification.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/misc-dream-factory",
+        "title": "Dream Factory",
+        "content": "\nTurn any database into an API platform.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/misc-lumber",
+        "title": "Lumber",
+        "content": "\nGenerate the admin interface of your application.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/misc-ng-admin",
+        "title": "ng-admin",
+        "content": "\nAdd an AngularJS admin GUI to any RESTful API.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/misc-react-admin",
+        "title": "react-admin",
+        "content": "\nAdd a ReactJS admin GUI to any RESTful API.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-badssl",
+        "title": "badssl",
+        "content": "\nTesting clients against bad SSL configs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-beeceptor",
+        "title": "Beeceptor",
+        "content": "\nBeeceptor helps intercepting API calls and mocking them selectively. Creates an endpoint for wrapping original API and routes requests.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-duckrails",
+        "title": "DuckRails",
+        "content": "\nMock quickly & dynamically API endpoints.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-fakeql",
+        "title": "FakeQL",
+        "content": "\nMainly focused on GraphQL, but can mock RESTful APIs, as well.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-fakerest",
+        "title": "FakeRest",
+        "content": "\nPatch XMLHttpRequest to fake a REST API client-side.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-httpbin",
+        "title": "httpbin",
+        "content": "\nTemplated responses for testing various scenarios for HTTP requests.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-httpstatus",
+        "title": "httpstat.us",
+        "content": "\nA super simple service for generating different HTTP codes.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-json-placeholder",
+        "title": "JSON Placeholder",
+        "content": "\nFree online REST service that you can use whenever you need some fake data.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-json-server",
+        "title": "Json-Server",
+        "content": "\nFull fake REST API with zero coding.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-mockbin",
+        "title": "MockBin",
+        "content": "\nGenerate mock HTTP endpoints.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-mockoon",
+        "title": "Mockoon",
+        "content": "\nDesktop API mocking tool.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-mockyio",
+        "title": "Mocky.io",
+        "content": "\nFree online service to create fake HTTP responses.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-request-baskets",
+        "title": "Request Baskets",
+        "content": "\nService to collect HTTP requests and inspect them via RESTful API or web UI.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-requestbin",
+        "title": "RequestBin",
+        "content": "\nInspect and debug webhook requests sent by your clients or third-party APIs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/mocking-swagger-api-mock",
+        "title": "Swagger API Mock",
+        "content": "\nMock RESTful API based on swagger schema",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/servers-actionhero",
+        "title": "Actionhero",
+        "content": "\nMulti-transport Node.js API server with integrated cluster capabilities and delayed tasks.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-activemodel-serializer",
+        "title": "ActiveModel-Serializer",
+        "content": "\nBrings convention over configuration to your JSON generation.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/servers-akka-http",
+        "title": "Akka HTTP",
+        "content": "\nThe Akka HTTP modules implement a full server- and client-side HTTP stack on top of akka-actor and akka-stream.",
+        "tags": [
+            "scala"
+        ]
+    },
+    {
+        "uri": "/tools/servers-api-platform",
+        "title": "API Platform",
+        "content": "\nAPI framework on top of Symfony with JSON-LD, Schema.org and Hydra support",
+        "tags": [
+            "symphony",
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-apigility",
+        "title": "Apigility",
+        "content": "\nAPI builder built with Zend Framework 2.",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-apistar",
+        "title": "apistar",
+        "content": "\nA smart Web API framework, designed for Python3.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-baucis",
+        "title": "Baucis",
+        "content": "\nBuild scalable REST API based on Mongoose, Express and Node.js streams.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-chaos",
+        "title": "Chaos",
+        "content": "\nA lightweight framework for writing REST services in Scala.",
+        "tags": [
+            "scala"
+        ]
+    },
+    {
+        "uri": "/tools/servers-colossus",
+        "title": "Colossus",
+        "content": "\nI/O and microservice library for Scala.",
+        "tags": [
+            "scala"
+        ]
+    },
+    {
+        "uri": "/tools/servers-connexion",
+        "title": "Connexion",
+        "content": "\nSwagger/OpenAPI First framework for Python on top of Flask with automatic endpoint validation and OAuth2 support",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-cowboy",
+        "title": "Cowboy",
+        "content": "\nSmall, fast, modular HTTP server written in Erlang.",
+        "tags": [
+            "erlang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-deployd",
+        "title": "Deployd",
+        "content": "\nDeployd is the simplest way to build realtime APIs for web and mobile apps",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-dingo-api",
+        "title": "Dingo API",
+        "content": "\nA RESTful API package for the Laravel and Lumen frameworks",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-django-rest-framework",
+        "title": "Django REST framework",
+        "content": "\nToolkit that makes it easy to build Web APIs.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-django-tastypie",
+        "title": "django-tastypie",
+        "content": "\nCreating delicious APIs for Django apps.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-drest",
+        "title": "Drest",
+        "content": "\nLibrary for exposing Doctrine entities as REST resource endpoints.",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-dropwizard",
+        "title": "Dropwizard",
+        "content": "\nA framework for developing ops-friendly, high-performance, RESTful web services.",
+        "tags": [
+            "java"
+        ]
+    },
+    {
+        "uri": "/tools/servers-express",
+        "title": "Express",
+        "content": "\nFast, unopinionated, minimalist web framework for Node.js.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-expressa",
+        "title": "Expressa",
+        "content": "\nExpress middleware for creating APIs from JSON schemas with a simple admin editor and permissions model.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-falcon",
+        "title": "Falcon",
+        "content": "\nFalcon is a low-level, high-performance Python framework for building HTTP APIs, app backends, and higher-level frameworks.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-feathers",
+        "title": "Feathers",
+        "content": "\nBuild RESTful and real-time APIs through Socket.io or Primus.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-fibre",
+        "title": "Fibre",
+        "content": "\n:zap:Fiber is an Express inspired web framework written in Go with coffee.",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-finatra",
+        "title": "Finatra",
+        "content": "\nFast, testable, Scala HTTP services built on Twitter-Server and Finagle.",
+        "tags": [
+            "scala"
+        ]
+    },
+    {
+        "uri": "/tools/servers-flask-potion",
+        "title": "Flask-Potion",
+        "content": "\nFlask-Potion is a powerful Flask extension for building RESTful JSON APIs. It also provides several Clients for easier access to the API.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-flask-restful",
+        "title": "flask-restful",
+        "content": "\nSimple framework for creating REST APIs.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-flask-restless",
+        "title": "flask-restless",
+        "content": "\nFlask extension for generating ReSTful APIs for database models defined with SQLAlchemy or Flask-SQLAlchemy.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-flatiron-resourceful",
+        "title": "flatiron-resourceful",
+        "content": "\nIsomorphic Resource engine for JavaScript.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-fosrestbundle",
+        "title": "FOSRestBundle",
+        "content": "\nBundle handling view, routing, error handling, etc. for your REST API.",
+        "tags": [
+            "symphony",
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-fractal",
+        "title": "Fractal",
+        "content": "\nFractal provides a presentation and transformation layer for complex data output, the like found in RESTful APIs, and works really well with JSON",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-fusio",
+        "title": "Fusio",
+        "content": "\nFusio is an open source API management platform which helps to build and manage REST APIs. Fusio provides all tools to quickly build an API from different data sources yet it is possible to create complete customized responses.",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-gen-microservice",
+        "title": "Gen Microservice",
+        "content": "\nThis library solves the problem of implementing microservices with Erlang.",
+        "tags": [
+            "erlang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-go-json-rest",
+        "title": "Go-Json-Rest",
+        "content": "\nThin layer on top of net/http that helps building RESTful APIs easily",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-go-relax",
+        "title": "go-relax",
+        "content": "\nFramework of pluggable components to build RESTful API.",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-go-rest",
+        "title": "go-rest",
+        "content": "\nSmall and evil REST framework for Go.",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-go-restful",
+        "title": "go-restful",
+        "content": "\nA declarative highly readable framework for building restful API.",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-goat",
+        "title": "Goat",
+        "content": "\nMinimalistic REST API server in Go.",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-gocrud",
+        "title": "gocrud",
+        "content": "\nGo library to simplify creating, updating and deleting arbitrary depth structured data — to make building REST services fast and easy.",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-grape",
+        "title": "grape",
+        "content": "\nAn opinionated micro-framework for creating REST-like APIs in Ruby.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/servers-hal",
+        "title": "HAL",
+        "content": "\nHypertext Application Language builder library.",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-hapijs",
+        "title": "hapi.js",
+        "content": "\nWeb and services application framework for Node.js.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-hateoas",
+        "title": "Hateoas",
+        "content": "\nlibrary into a Symfony2 application.",
+        "tags": [
+            "symphony",
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-hug",
+        "title": "hug",
+        "content": "\nhug aims to make developing Python driven APIs as simple as possible, but no simpler.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-jbuilder",
+        "title": "jbuilder",
+        "content": "\nCreate JSON structures via a Builder-style DSL.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/servers-jersey",
+        "title": "Jersey",
+        "content": "\nRESTful web services in Java.",
+        "tags": [
+            "java"
+        ]
+    },
+    {
+        "uri": "/tools/servers-koa",
+        "title": "Koa",
+        "content": "\nNext generation web framework for Node.js",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-lakion-lionframe",
+        "title": "lakion-Lionframe",
+        "content": "\nGlu between several community libraries to ease API development.",
+        "tags": [
+            "symphony",
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-loopback",
+        "title": "loopback",
+        "content": "\nPowerful Node.js framework for creating APIs and easily connecting to backend data sources.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-mers",
+        "title": "mers",
+        "content": "\nExpress service exposing Mongoose finders as RESTful API.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-metamug-mason",
+        "title": "Metamug Mason",
+        "content": "\nCreate REST APIs with JSP tags and SQL. Edit and hot deploy REST resources on the server.",
+        "tags": [
+            "java"
+        ]
+    },
+    {
+        "uri": "/tools/servers-microrest",
+        "title": "Microrest",
+        "content": "\nMicro-web application providing a REST API on top of any relational database.",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-mochiweb",
+        "title": "Mochiweb",
+        "content": "\nErlang library for building lightweight HTTP servers.",
+        "tags": [
+            "erlang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-mysql-http-plugin",
+        "title": "MySQL HTTP plugin",
+        "content": "\nSimple REST-like / CRUD server for any MySQL database.",
+        "tags": [
+            "database"
+        ]
+    },
+    {
+        "uri": "/tools/servers-negotiation",
+        "title": "Negotiation",
+        "content": "\nContent negotiation library.",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-nelmioapidocbundle",
+        "title": "NelmioApiDocBundle",
+        "content": "\nGenerate documentation for your REST API from annotations.",
+        "tags": [
+            "symphony",
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-nest",
+        "title": "Nest",
+        "content": "\nA modern node.js framework for efficient and scalable web applications built on top of TypeScript",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-nestjsx-crud",
+        "title": "Nestjsx-crud",
+        "content": "\nGenerate CRUD controllers and services for RESTful API with NestJS and TypeORM.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-ngadmingeneratorbundle",
+        "title": "NgAdminGeneratorBundle",
+        "content": "\nBoostrap ng-admin configuration based on stanlemon/rest-bundle.",
+        "tags": [
+            "symphony",
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-node-restify",
+        "title": "node-restify",
+        "content": "\nFramework specifically meant for REST API.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-phoenix",
+        "title": "Phoenix",
+        "content": "\nFramework for building HTML5 apps, API backends and distributed systems.",
+        "tags": [
+            "elixir"
+        ]
+    },
+    {
+        "uri": "/tools/servers-phprest",
+        "title": "phprest",
+        "content": "\nSpecialized REST microframework for PHP.",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-play",
+        "title": "Play",
+        "content": "\nThe high velocity web framework for Java and Scala.",
+        "tags": [
+            "scala"
+        ]
+    },
+    {
+        "uri": "/tools/servers-pliny",
+        "title": "pliny",
+        "content": "\nOpinionated template Sinatra app for writing APIs in Ruby.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/servers-plug",
+        "title": "Plug",
+        "content": "\nA specification and conveniences for composable modules between web applications.",
+        "tags": [
+            "elixir"
+        ]
+    },
+    {
+        "uri": "/tools/servers-postgrest",
+        "title": "postgrest",
+        "content": "\nServe a fully RESTful API directly from an existing PostgreSQL database.",
+        "tags": [
+            "database"
+        ]
+    },
+    {
+        "uri": "/tools/servers-prest",
+        "title": "pREST",
+        "content": "\nA fully RESTful API from any existing PostgreSQL database written in Go.",
+        "tags": [
+            "database"
+        ]
+    },
+    {
+        "uri": "/tools/servers-python-eve",
+        "title": "Python Eve",
+        "content": "\nEve is an open source Python REST API framework designed for human beings. It allows to effortlessly build and deploy highly customizable, fully featured RESTful Web Services.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-rabl",
+        "title": "rabl",
+        "content": "\nGenerate JSON and XML from any ruby object.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/servers-rails-api",
+        "title": "rails-api",
+        "content": "\nRails for API only applications.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/servers-rails",
+        "title": "Rails",
+        "content": "\nRailsGuides: Using Rails for API-only applications.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/servers-ramses",
+        "title": "Ramses",
+        "content": "\nMakes RAML files executable by generating production-ready APIs from them at runtime.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-resoursea",
+        "title": "Resoursea",
+        "content": "\nREST framework for quickly writing resource based services.",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-rest-apis-with-symfony2",
+        "title": "REST APIs with Symfony2",
+        "content": "\nComplete guide to build a state-of-the-art REST API with Symfony2 framework.",
+        "tags": [
+            "symphony",
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-rest-for-haskell",
+        "title": "Rest for Haskell",
+        "content": "\nThis package allows you to create REST APIs in Haskell. These APIs can be run in different web frameworks. They can also be used to automatically generate documentation as well as client libraries.",
+        "tags": [
+            "haskell"
+        ]
+    },
+    {
+        "uri": "/tools/servers-rest-hapi",
+        "title": "rest-hapi",
+        "content": "\nGenerate RESTful API based on mongoose models that supports relational data.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-restexpress",
+        "title": "RestExpress",
+        "content": "\nNetty-based, highly performant, lightweight, container-less, plugin-extensible, framework that is ideal for microservice architectures.",
+        "tags": [
+            "java"
+        ]
+    },
+    {
+        "uri": "/tools/servers-restify",
+        "title": "Restify",
+        "content": "\nNode.js REST framework specifically meant for web service APIs.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-restit",
+        "title": "restit",
+        "content": "\nGo micro framework to help writing RESTful API integration test.",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-restler",
+        "title": "Restler",
+        "content": "\nLightweight framework to expose PHP methods as RESTful web API.",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-restless",
+        "title": "restless",
+        "content": "\nA lightweight REST miniframework for Python.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-restli",
+        "title": "Rest.li",
+        "content": "\nREST framework using type-safe bindings and asynchronous, non-blocking IO.",
+        "tags": [
+            "java"
+        ]
+    },
+    {
+        "uri": "/tools/servers-roar",
+        "title": "roar",
+        "content": "\nParse and render REST API documents using representers.",
+        "tags": [
+            "ruby"
+        ]
+    },
+    {
+        "uri": "/tools/servers-sailsjs",
+        "title": "sailsjs",
+        "content": "\nRealtime MVC Framework for Node.js.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-sandman",
+        "title": "sandman",
+        "content": "\nAutomated REST APIs for existing database-driven systems.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-sanic",
+        "title": "sanic",
+        "content": "\nSanic is a Flask-like Python 3.5+ web server written to go fast.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-savory-pie",
+        "title": "savory-pie",
+        "content": "\nREST API building library for django, and others.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-scalatra",
+        "title": "Scalatra",
+        "content": "\nSimple, accessible and free web micro-framework.",
+        "tags": [
+            "scala"
+        ]
+    },
+    {
+        "uri": "/tools/servers-scotty",
+        "title": "Scotty",
+        "content": "\nMicro web framework inspired by Sinatra, using WAI and Warp.",
+        "tags": [
+            "haskell"
+        ]
+    },
+    {
+        "uri": "/tools/servers-seneca",
+        "title": "Seneca",
+        "content": "\nA microservices toolkit for Node.js.",
+        "tags": [
+            "node-js"
+        ]
+    },
+    {
+        "uri": "/tools/servers-servant",
+        "title": "Servant",
+        "content": "\nA Type-Level Web DSL.",
+        "tags": [
+            "haskell"
+        ]
+    },
+    {
+        "uri": "/tools/servers-skinny-micro",
+        "title": "Skinny Micro",
+        "content": "\nMicro-web framework to build servlet applications in Scala.",
+        "tags": [
+            "scala"
+        ]
+    },
+    {
+        "uri": "/tools/servers-sleepy",
+        "title": "sleepy",
+        "content": "\nRESTful micro-framework written in Go.",
+        "tags": [
+            "go-lang"
+        ]
+    },
+    {
+        "uri": "/tools/servers-spock",
+        "title": "Spock",
+        "content": "\nAnother Haskell web framework for rapid development.",
+        "tags": [
+            "haskell"
+        ]
+    },
+    {
+        "uri": "/tools/servers-spray",
+        "title": "Spray",
+        "content": "\nOpen-source toolkit for building REST/HTTP-based integration layers on top of Scala and Akka.",
+        "tags": [
+            "scala"
+        ]
+    },
+    {
+        "uri": "/tools/servers-spring-boot",
+        "title": "Spring Boot",
+        "content": "\nRESTful Web Service using Spring, high-performance and little configuration needed.",
+        "tags": [
+            "java"
+        ]
+    },
+    {
+        "uri": "/tools/servers-stanlemon-rest-bundle",
+        "title": "stanlemon-rest-bundle",
+        "content": "\nBuild a REST API based on Doctrine entities using conventions over configuration.",
+        "tags": [
+            "symphony",
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-swagger-akka-http",
+        "title": "Swagger Akka HTTP",
+        "content": "\nSwagger-Akka-Http brings Swagger support for Akka-Http Apis.",
+        "tags": [
+            "scala"
+        ]
+    },
+    {
+        "uri": "/tools/servers-symfony-rest-edition",
+        "title": "Symfony REST Edition",
+        "content": "\nStart with a Symfony2 application with all REST-friendly bundles pre-configured.",
+        "tags": [
+            "symphony",
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/servers-tastypie",
+        "title": "Tastypie",
+        "content": "\nWebservice API framework for Django.",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "uri": "/tools/servers-vertx-web",
+        "title": "Vertx-Web",
+        "content": "\nVert.x-Web is a set of building blocks for building web applications with Vert.x, a toolkit for building reactive applications on the JVM.",
+        "tags": [
+            "java"
+        ]
+    },
+    {
+        "uri": "/tools/servers-xmysql",
+        "title": "xmysql",
+        "content": "\nGenerate REST APIs for any MySQL Database.",
+        "tags": [
+            "database"
+        ]
+    },
+    {
+        "uri": "/tools/servers-yesod",
+        "title": "Yesod",
+        "content": "\nThe Haskell RESTful web framework.",
+        "tags": [
+            "haskell"
+        ]
+    },
+    {
+        "uri": "/tools/servers-yii2-framework",
+        "title": "Yii2 Framework",
+        "content": "\nProvides a whole set of tools to simplify the task of implementing RESTful Web Service APIs",
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "uri": "/tools/standards-18f-api-standards",
+        "title": "18F API Standards",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-adidas-group-api-design-guide",
+        "title": "Adidas-group API Design Guide",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-api-blueprint",
+        "title": "API Blueprint",
+        "content": "\nA powerful high-level API description language for web APIs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/standards-api-stylebook-design-guidelines",
+        "title": "API Stylebook Design Guidelines",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-api-stylebook-design-topics",
+        "title": "API Stylebook Design Topics",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-azure-api-design",
+        "title": "Azure API Design",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-google-api-design-guide",
+        "title": "Google API Design Guide",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-haufe-api-style-guide",
+        "title": "Haufe API Style Guide",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-heroku-platform-http-api-design-guide",
+        "title": "Heroku Platform HTTP API Design Guide",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-hydra",
+        "title": "Hydra",
+        "content": "\nVocabulary for Hypermedia-Driven Web APIs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/standards-jsend",
+        "title": "JSend",
+        "content": "\nSimple specification that lays down some rules for how JSON responses from web servers should be formatted.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/standards-json-api",
+        "title": "JSON API",
+        "content": "\nStandard for building APIs in JSON.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/standards-json-ld",
+        "title": "JSON-LD",
+        "content": "\nStandard for describing Linked Data and hypermedia relations in JSON.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/standards-json-schema",
+        "title": "JSON Schema",
+        "content": "\nJSON Schema is a vocabulary that allows you to annotate and validate JSON documents.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/standards-microsoft-rest-api-guidelines",
+        "title": "Microsoft REST API Guidelines",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-odata",
+        "title": "OData",
+        "content": "\nOpen protocol to allow the creation and consumption of queryable and interoperable RESTful APIs. Quite complex.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/standards-openapi",
+        "title": "OpenAPI",
+        "content": "\nFormerly known as the Swagger Specification, OpenAPI specifcation is the world’s most popular description format for defining Restful APIs.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/standards-paypal-api-style-guide",
+        "title": "PayPal API Style Guide",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-raml",
+        "title": "RAML",
+        "content": "\nSimple and succinct way to describe RESTful API.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/standards-schemaorg",
+        "title": "Schema.org",
+        "content": "\nCollection of schemas describing common data models.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/standards-the-rested-narwhl",
+        "title": "The RESTed NARWHL",
+        "content": "\nNoun As Resource With HyperLinks.",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-white-house-web-api-standards",
+        "title": "White House Web API Standards",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/standards-zalando-rest-api-guidelines",
+        "title": "Zalando REST API Guidelines",
+        "content": "\n",
+        "tags": [
+            "style-guide"
+        ]
+    },
+    {
+        "uri": "/tools/testing-assertible",
+        "title": "Assertible",
+        "content": "\nContinuously test and monitor your APIs after deployments and across environments.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/testing-http-console",
+        "title": "Http-console",
+        "content": "\nCommand line interface for HTTP that let you speak HTTP like a local",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/testing-http-prompt",
+        "title": "HTTP Prompt",
+        "content": "\nHTTP Prompt is an interactive command-line HTTP client featuring autocomplete and syntax highlighting, built on HTTPie and prompt_toolkit.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/testing-httpie",
+        "title": "httpie",
+        "content": "\nCommand line HTTP client, far more dev-friendly than curl.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/testing-insomina",
+        "title": "Insomina",
+        "content": "\nA Fancy HTTP REST Client.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/testing-jq",
+        "title": "jq",
+        "content": "\nCommand line JSON processor, to use in combination with a command-line HTTP client like cURL.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/testing-owasp-zaproxy",
+        "title": "OWASP Zaproxy",
+        "content": "\nA tool to test your API for known security vulnerabilities, with a great CI integration.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/testing-pyresttest",
+        "title": "Pyresttest",
+        "content": "\nYAML based REST testing and API microbenchmarking tool",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/testing-rest-assured",
+        "title": "rest-assured",
+        "content": "\nJava DSL for easy testing of REST services.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/testing-testmace",
+        "title": "TestMace",
+        "content": "\nCross-platform simple but powerful IDE for API automation testing.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/testing-vrest-ng",
+        "title": "vREST NG",
+        "content": "\nAn enterprise ready application for automated API Testing. It is very simple and intuitive application.",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "uri": "/tools/tools-api-spec-converter",
+        "title": "API Spec Converter",
+        "content": "\nConvert between different API spec formats.",
+        "tags": [
+            "standards"
+        ]
+    },
+    {
+        "uri": "/tools/tools-apimatic",
+        "title": "Apimatic",
+        "content": "\nInstantly build an API Portal with SDKs, Live Code Samples, Test Cases, API Transformation and language specific Docs Reference tailored for your API.",
+        "tags": [
+            "standards"
+        ]
+    },
+    {
+        "uri": "/tools/tools-dredd",
+        "title": "Dredd",
+        "content": "\nValidate API documentation written in API Blueprint against its backend implementation.",
+        "tags": [
+            "standards"
+        ]
+    },
+    {
+        "uri": "/tools/tools-extendsclass",
+        "title": "ExtendsClass",
+        "content": "\nWeb-based HTTP client.",
+        "tags": [
+            "clients",
+            "hosted"
+        ]
+    },
+    {
+        "uri": "/tools/tools-firecamp",
+        "title": "Firecamp",
+        "content": "\nAPI Studio for WebSocket, Rest API and GraphQL.",
+        "tags": [
+            "clients",
+            "desktop"
+        ]
+    },
+    {
+        "uri": "/tools/tools-httpie",
+        "title": "HTTPie",
+        "content": "\nCommand line HTTP client.",
+        "tags": [
+            "clients",
+            "desktop"
+        ]
+    },
+    {
+        "uri": "/tools/tools-httpmaster",
+        "title": "HttpMaster",
+        "content": "\nDesktop tool for REST API testing.",
+        "tags": [
+            "clients",
+            "desktop"
+        ]
+    },
+    {
+        "uri": "/tools/tools-insomnia",
+        "title": "Insomnia",
+        "content": "\nREST API client for Mac, Windows, and Linux.",
+        "tags": [
+            "clients",
+            "desktop"
+        ]
+    },
+    {
+        "uri": "/tools/tools-json-generator",
+        "title": "JSON Generator",
+        "content": "\nGenerate and host mock JSON data.",
+        "tags": [
+            "clients",
+            "hosted"
+        ]
+    },
+    {
+        "uri": "/tools/tools-jsonium",
+        "title": "Jsonium",
+        "content": "\nFree REST client for JSON over HTTP protocols",
+        "tags": [
+            "clients",
+            "desktop"
+        ]
+    },
+    {
+        "uri": "/tools/tools-mulesoft-anypoint",
+        "title": "Mulesoft Anypoint",
+        "content": "\nDesign and publish enterprise-grade APIs using RAML",
+        "tags": [
+            "standards"
+        ]
+    },
+    {
+        "uri": "/tools/tools-paw",
+        "title": "Paw",
+        "content": "\nREST client for Mac.",
+        "tags": [
+            "clients",
+            "desktop"
+        ]
+    },
+    {
+        "uri": "/tools/tools-postman",
+        "title": "Postman",
+        "content": "\nDesktop API testing tool.",
+        "tags": [
+            "clients",
+            "desktop"
+        ]
+    },
+    {
+        "uri": "/tools/tools-prism",
+        "title": "Prism",
+        "content": "\nSupercharge any OAS file with mocking, transformations, validations, and more.",
+        "tags": [
+            "standards"
+        ]
+    },
+    {
+        "uri": "/tools/tools-restlet-studio",
+        "title": "Restlet Studio",
+        "content": "\nWeb IDE for API Design.",
+        "tags": [
+            "standards"
+        ]
+    },
+    {
+        "uri": "/tools/tools-restunited",
+        "title": "Restunited",
+        "content": "\nGenerate SDK, Documentation with Testing and Debugging",
+        "tags": [
+            "standards"
+        ]
+    },
+    {
+        "uri": "/tools/tools-sandbox",
+        "title": "Sandbox",
+        "content": "\nQuick and easy mock RESTful API from API definitions",
+        "tags": [
+            "standards"
+        ]
+    },
+    {
+        "uri": "/tools/tools-swagger-editor",
+        "title": "Swagger Editor",
+        "content": "\nAn editor for designing Swagger specifications.",
+        "tags": [
+            "standards"
+        ]
+    },
+    {
+        "uri": "/tools/tools-swagger-tools-and-integrations",
+        "title": "Swagger Tools and Integrations",
+        "content": "\nA list of libraries and frameworks serving the Swagger ecosystem.",
+        "tags": [
+            "standards"
+        ]
+    }
+]

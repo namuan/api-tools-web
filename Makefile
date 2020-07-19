@@ -34,7 +34,10 @@ content: ## Generate markdown from database
 deps: ## Re-install dependencies
 	./venv/bin/pip install -r importer/requirements.txt
 
-serve: ## Serve site locally
+index: ## Generate index
+	npm run index
+
+serve: index ## Serve site locally
 	open http://localhost:1313
 	hugo server -D --disableFastRender
 

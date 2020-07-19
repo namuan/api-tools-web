@@ -1,24 +1,29 @@
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
+
 body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
+    margin-bottom: 60px; /* Margin bottom by footer height */
+    font-family: "Trebuchet MS", sans-serif;
 }
 
-.book-title {
-  font-size: 24px;
-  font-weight: bold;
+
+#navbarBanner {
+    background: #DDAF39;
+    font-size: xx-large;
 }
 
-.categories {
-  font-size: smaller;
+#footer {
+    background: #DDAF39;
 }
 
-/* Ratings Star */
-
-.checked {
-  color: orange;
+a {
+    text-decoration: none;
+    color: #34485D;
 }
 
-/* Ratings Star */
+a:hover {
+    color: #BF6565;
+    text-decoration: none;
+}
