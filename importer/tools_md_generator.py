@@ -47,7 +47,7 @@ def tools_database_entries():
 
 
 def create_context_for_template(entry):
-    print(entry)
+    entry["tags"] = entry["tags"].split(" ")
     return entry
 
 

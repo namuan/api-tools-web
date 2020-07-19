@@ -52,7 +52,7 @@ def create_tool_item(extracted_tool, category, tags):
         short_description=short_description,
         website=website,
         category=category,
-        tags=tags,
+        tags=tags if tags else "",
         screen_shot="",
         long_description="",
         is_opensource=is_opensource(website)

@@ -1,6 +1,4 @@
 +++ 
-date = 2019-10-27T11:30:15Z
-publishedDate = "{{ published_date }}"
 title = "{{ name }}"
 categories = ["{{ category }}"]
 series = []
@@ -10,4 +8,4 @@ is_opensource = "{{ is_opensource }}"
 tags = {{ tags }}
 +++
 
-{{ short_description }}
+{{ short_description.strip() }}
