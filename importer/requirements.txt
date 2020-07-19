@@ -2,3 +2,4 @@ dataset
 pyppeteer
 slug
 markdownify
+Jinja2

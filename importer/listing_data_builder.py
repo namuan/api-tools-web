@@ -7,7 +7,7 @@ import re
 
 import sys
 
-from importer.data_store import data_store
+from importer.data_store import data_store, API_RESOURCES_TABLE_NAME
 
 ENCODE_IN = "utf-8"
 ENCODE_OUT = "utf-8"
@@ -80,7 +80,7 @@ def upsert(api_resource):
         return
 
     try:
-        table = data_store.table_for("api_resources")
+        table = data_store.table_for(API_RESOURCES_TABLE_NAME)
         table.upsert(
             api_resource,
             ['name'],

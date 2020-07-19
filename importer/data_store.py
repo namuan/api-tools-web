@@ -2,6 +2,7 @@ import os
 
 import dataset
 
+API_RESOURCES_TABLE_NAME = "api_resources"
 
 class DataStore:
 

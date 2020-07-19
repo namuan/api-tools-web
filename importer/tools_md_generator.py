@@ -13,18 +13,18 @@ write output to md file
 Test
 """
 
-import argparse
-import io
 import json
 import os
+import time
 from collections import namedtuple
 from pathlib import Path
 
-import sys
-import time
+import argparse
 from jinja2 import Environment, FileSystemLoader
 from markdownify import markdownify as md
-from slugify import slugify
+from slug import slug
+
+from importer.data_store import API_RESOURCES_TABLE_NAME, data_store
 
 ENCODE_IN = "utf-8"
 ENCODE_OUT = "utf-8"
@@ -35,10 +35,10 @@ def parse_args():
     """Parse command line arguments."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "-i",
-        "--infile",
-        type=lambda x: open(x, encoding=ENCODE_IN),
-        default=io.TextIOWrapper(sys.stdin.buffer, encoding=ENCODE_IN),
+        "-t",
+        "--targetdir",
+        type=str,
+        required=True
     )
     return parser.parse_args()
 
@@ -92,8 +92,8 @@ jinja_env = Environment(loader=FileSystemLoader(TEMPLATE_DIR), trim_blocks=True)
 
 def transform_book_items(book_item):
     print("Created BookItem: {}".format(book_item))
-    rendered = jinja_env.get_template("md_template.j2").render(book_item._asdict())
-    return "{}.md".format(slugify(book_item.title)), rendered
+    rendered = jinja_env.get_template("md_tool_template.j2").render(book_item._asdict())
+    return "{}.md".format(slug(book_item.title)), rendered
 
 
 def write_to_file(file_name, file_contents):
@@ -115,30 +115,33 @@ def manipulate_data(book_ids):
     return [make_book_item(id) for id in book_ids if id]
 
 
-def tools_database_entry():
-    return []
+def tools_database_entries():
+    table = data_store.table_for(API_RESOURCES_TABLE_NAME)
+    return table.find()
 
 
 def create_context_for_template(entry):
-    return {}
+    return entry
 
 
 def generate_final_markdown(context):
-    return ""
+    return jinja_env.get_template("md_tool_template.j2").render(context)
 
 
 def build_target_file_path(entry, tools_content_dir):
-    return ""
+    tool_name = "{}-{}".format(entry["category"], slug(entry["name"]))
+    return tools_content_dir.join(tool_name)
 
 
 def save_output(target_file_path, output):
-    pass
+    target_file_path.write_text(output)
 
 
 def main():
     args = parse_args()
-    tools_content_dir = args.targetdir
-    for entry in tools_database_entry():
+    tools_content_dir = Path(args.targetdir)
+    tools_content_dir.mkdir(exist_ok=True)
+    for entry in tools_database_entries():
         context = create_context_for_template(entry)
         output = generate_final_markdown(context)
         target_file_path = build_target_file_path(entry, tools_content_dir)

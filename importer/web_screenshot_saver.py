@@ -9,7 +9,7 @@ import time
 from pyppeteer import launch
 from slug import slug
 
-from importer.data_store import data_store
+from importer.data_store import data_store, API_RESOURCES_TABLE_NAME
 
 ENCODE_IN = "utf-8"
 ENCODE_OUT = "utf-8"
@@ -56,7 +56,7 @@ async def main():
     screenshots_dir = Path(target_dir)
     screenshots_dir.mkdir(exist_ok=True)
     browser = await launch(headless=False, defaultViewport=None)
-    table = data_store.table_for("api_resources")
+    table = data_store.table_for(API_RESOURCES_TABLE_NAME)
     for entry in table.find():
         website_url = entry["website"]
         tool_name = "{}-{}.png".format(entry["category"], slug(entry["name"]))
