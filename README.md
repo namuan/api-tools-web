@@ -23,6 +23,14 @@ Set up API Resources in following categories
 - [ ] Blogs
 - [ ] OpenSource
 
+## ETL 
+
+```
+./importer/all_commands.sh
+./importer/all_screenshots.sh
+./importer/all_md_generator.sh
+```
+
 ## Todo
 
 - [x] Create a new SQLite database
