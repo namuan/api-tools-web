@@ -9,5 +9,5 @@ goodread_html_temp/
 scraped-images_temp/
 venv/
 screenshots/
-min-screenshots/
+static/images/tools
 content/tools/

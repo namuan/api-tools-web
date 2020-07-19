@@ -61,9 +61,7 @@ async def main():
         tool_name = "{}-{}.png".format(entry["category"], slug(entry["name"]))
         screen_shot_path = screenshots_dir.joinpath(tool_name)
 
-        if screen_shot_path.exists():
-            print("Skipping {} as it already exists".format(website_url))
-        else:
+        if not screen_shot_path.exists():
             print("Processing {}".format(website_url))
             try:
                 browser, page = await open_site(browser, website_url, screenshots_dir.as_posix())
@@ -75,7 +73,7 @@ async def main():
             except Exception as e:
                 print("Error processing: {} - {}".format(website_url, str(e)))
 
-        entry["screen_shot"] = screen_shot_path.as_posix()
+        entry["screen_shot"] = "/images/tools/{}".format(tool_name)
         data_store.update_tool(entry)
 
 

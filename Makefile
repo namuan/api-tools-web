@@ -25,6 +25,12 @@ database: ## Re-build database
 screenshots: ## Re-download screenshots from websites
 	./importer/all_screenshots.sh
 
+resize: ## Resze screenshots
+	./importer/resize-screenshots.sh
+
+content: ## Generate markdown from database
+	./importer/all_md_generator.sh
+
 deps: ## Re-install dependencies
 	./venv/bin/pip install -r importer/requirements.txt
 

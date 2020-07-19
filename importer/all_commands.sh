@@ -221,7 +221,7 @@ echo '
 - [Zuul](https://github.com/Netflix/zuul): An edge service that provides dynamic routing, monitoring, resiliency, security, and more.
 - [Kong](https://getkong.org/): An open-source management layer for APIs, delivering high performance and reliability.
 - [Janus](https://github.com/hellofresh/janus): A lightweight API Gateway written in Go.
-- [fabio](https://github.com/fabiolb/fabio): A fast, modern, zero-conf load balancing HTTP(S) router for deploying microservices managed by [consul](https://www.consul.io) by eBay.
+- [fabio](https://github.com/fabiolb/fabio): A fast, modern, zero-conf load balancing router for deploying microservices managed by Consul.
 - [Traefik](https://github.com/containous/traefik): Træfik is a modern HTTP reverse proxy and load balancer written in Go.
 - [Oathkeeper](https://github.com/ory/oathkeeper): OIdentity & Access Proxy that authorizes HTTP requests based on sets of rules. Integrates with ORY Hydra.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category "api-management"
