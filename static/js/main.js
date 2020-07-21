@@ -1,4 +1,4 @@
 $(function () {
-    console.log("MindBooks");
+    console.log("API");
 });
 
