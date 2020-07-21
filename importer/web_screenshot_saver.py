@@ -67,9 +67,9 @@ async def main():
                 browser, page = await open_site(browser, website_url, screenshots_dir.as_posix())
                 if not github_signup_dismissed and is_github_page(website_url):
                     await dismiss_signup(page)
+                time.sleep(3) # gives us some time to dismiss cookie dialog etc. Also good for throttling requests
                 await page.screenshot({'path': screen_shot_path.as_posix()})
                 await page.close()
-                time.sleep(3)
             except Exception as e:
                 print("Error processing: {} - {}".format(website_url, str(e)))
 

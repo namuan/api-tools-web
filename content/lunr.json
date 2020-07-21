@@ -517,14 +517,6 @@
         ]
     },
     {
-        "uri": "/tools/documentation-embed-curl",
-        "title": "Embed curl",
-        "content": "\nEmbeddable curl commands on the web.",
-        "tags": [
-            ""
-        ]
-    },
-    {
         "uri": "/tools/documentation-gelato",
         "title": "Gelato",
         "content": "\nCreate developer portals for your API.",
@@ -552,14 +544,6 @@
         "uri": "/tools/documentation-rapidapi",
         "title": "RapidAPI",
         "content": "\nAPI Marketplace.",
-        "tags": [
-            ""
-        ]
-    },
-    {
-        "uri": "/tools/documentation-readme",
-        "title": "Readme",
-        "content": "\nAPI Documentation Hosting.",
         "tags": [
             ""
         ]
@@ -1975,7 +1959,7 @@
     {
         "uri": "/tools/tools-mulesoft-anypoint",
         "title": "Mulesoft Anypoint",
-        "content": "\nDesign and publish enterprise-grade APIs using RAML",
+        "content": "\nOne platform for APIs and integrations",
         "tags": [
             "standards"
         ]

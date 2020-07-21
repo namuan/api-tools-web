@@ -26,10 +26,9 @@ Set up API Resources in following categories
 ## ETL 
 
 ```
-./importer/all_commands.sh
-./importer/all_screenshots.sh
-./importer/resize-screenshots.sh
-./importer/all_md_generator.sh
+$ ./importer/all_commands.sh && ./importer/all_screenshots.sh && ./importer/all_md_generator.sh && make serve
+
+$ ./importer/resize-screenshots.sh # only if any new screenshot is required
 ```
 
 ## Todo
@@ -42,8 +41,6 @@ Set up API Resources in following categories
 - [x] Generate Markdown page entries for each tool
 - [x] Customise Hugo theme to display tools with pagination
 - [x] Sort links in "To Sort"
-- [ ] Add Search
-- [ ] Add Details Page
 - [ ] Domain and publish
 
 ## Reference Websites
