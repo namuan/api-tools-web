@@ -5,7 +5,7 @@ export PROJECTNAME=$(shell basename "$(PWD)")
 process: ## Here is the process
 	echo "make new -- to add a new entry"
 	echo "make serve -- to check it locally"
-	echo "make stage -- to push it live"
+	echo "make generate stage -- to push it live"
 	echo "make commit-all -- to commit the changes"
 
 clean: ## Clean Docs folder
@@ -44,7 +44,7 @@ serve: index ## Serve site locally
 new: ## Hugo command to create a new entry
 	echo "hugo new (posts|notes|projects)/next-title.md"
 
-stage: generate ## Deploys to Netlify staging environment
+stage: index ## Deploys to Netlify staging environment
 	netlify deploy --dir=docs
 
 .PHONY: help

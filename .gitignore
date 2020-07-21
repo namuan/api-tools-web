@@ -12,3 +12,5 @@ screenshots/
 static/images/tools
 content/tools/
 node_modules/
+# Local Netlify folder
+.netlify
