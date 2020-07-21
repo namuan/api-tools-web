@@ -1,0 +1,8 @@
+<div class="categories">
+    {{- range $index, $el := . -}}
+    {{- if gt $index 0 }}
+    <span class="separator">•</span>
+    {{- end }}
+    <a class="badge badge-pill badge-primary" href="{{ ( printf "categories/%s/" ( . | urlize ) ) | relLangURL }}">{{ . }}</a>
+    {{- end -}}
+</div>

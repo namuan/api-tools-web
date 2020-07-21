@@ -275,7 +275,7 @@ echo '
 - [API Spec Converter](https://lucybot-inc.github.io/api-spec-converter/): Convert between different API spec formats.
 - [Prism](http://stoplight.io/platform/prism/): Supercharge any OAS file with mocking, transformations, validations, and more.
 - [Apimatic](https://apimatic.io/developer-experience-portal): Instantly build an API Portal with SDKs, Live Code Samples, Test Cases, API Transformation and language specific Docs Reference tailored for your API.
-- [Mulesoft Anypoint](https://anypoint.mulesoft.com/): Design and publish enterprise-grade APIs using RAML
+- [Mulesoft Anypoint](https://www.mulesoft.com/platform/enterprise-integration): One platform for APIs and integrations
 - [Sandbox](https://getsandbox.com/): Quick and easy mock RESTful API from API definitions
 - [Restunited](https://restunited.com/): Generate SDK, Documentation with Testing and Debugging
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category tools --tags "standards"

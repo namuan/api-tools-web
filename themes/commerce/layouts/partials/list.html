@@ -16,6 +16,7 @@
                     <polyline points="15 4 20 4 20 9"/>
                 </svg>
             </a></h5>
+            {{ with .Params.Categories }}{{ partial "item-categories.html" . }}{{ end }}
             {{ with .Params.Tags }}{{ partial "item-tags.html" . }}{{ end }}
             <p class="card-text small">{{ .Params.short }}</p>
         </div>
