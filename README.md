@@ -41,7 +41,9 @@ $ ./importer/resize-screenshots.sh # only if any new screenshot is required
 - [x] Generate Markdown page entries for each tool
 - [x] Customise Hugo theme to display tools with pagination
 - [x] Sort links in "To Sort"
-- [ ] Domain and publish
+- [x] Domain and publish
+- [ ] Optimise images
+- [ ] Create logo 
 
 ## Reference Websites
 
