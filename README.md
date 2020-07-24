@@ -1,28 +1,23 @@
-# Everything API 
+# WebApis.xyz 
 
-Source code for everything api website
+Source code for [https://www.webapis.xyz/](https://www.webapis.xyz/)
 
 ## Categories
 
 Set up API Resources in following categories
 
-- [ ] Tutorials
-- [ ] Testing
-- [ ] Mocking
-- [ ] Services
-- [ ] API Gateways
-- [ ] Standards
-- [ ] Client Tools
-- [ ] Server Frameworks
-- [ ] Public APIs
-- [ ] Documentation
-- [ ] Code Generators / Modelling Tools
-- [ ] Security
-- [ ] Developer Portal
-- [ ] Guides
-- [ ] Blogs
-- [ ] OpenSource
-
+- [ ] Api monitoring 
+- [ ] Api security 
+- [ ] Clients 
+- [ ] Documentation 
+- [ ] Frameworks 
+- [ ] Misc 
+- [ ] Mocking 
+- [ ] Servers 
+- [ ] Standards 
+- [ ] Testing 
+- [ ] Tools
+ 
 ## ETL 
 
 ```
@@ -42,18 +37,12 @@ $ ./importer/resize-screenshots.sh # only if any new screenshot is required
 - [x] Customise Hugo theme to display tools with pagination
 - [x] Sort links in "To Sort"
 - [x] Domain and publish
-- [ ] Optimise images
-- [ ] Create logo 
-
-## Reference Websites
-
-- [x] https://github.com/Kikobeats/awesome-api
-- [x] https://github.com/marmelab/awesome-rest
-- [x] https://github.com/yosriady/api-development-tools
-- [ ] https://github.com/mailtoharshit/Awesome-Api-Management-Tools
-- [ ] https://github.com/unicodeveloper/awesome-documentation-tools
+- [x] Optimise images
+- [x] Create logo 
 
 ## Commands
+
+Export website URLs from database
 
 ```bash
 $ sqlite3 api_tools_web.db "select website from api_resources" > websites.txt

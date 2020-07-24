@@ -1,7 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Everything API"
+title = "WebApis :: All you need to work with APIs"
+description = "Tools, Frameworks and Libraries for working with Rest/Json APIs"
 theme = "commerce"
 paginate = "15"
 
-googleAnalytics = "UA-129728575-7"
+googleAnalytics = "UA-129728575-8"
