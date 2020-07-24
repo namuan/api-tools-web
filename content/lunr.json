@@ -765,14 +765,6 @@
         ]
     },
     {
-        "uri": "/tools/mocking-swagger-api-mock",
-        "title": "Swagger API Mock",
-        "content": "\nMock RESTful API based on swagger schema",
-        "tags": [
-            ""
-        ]
-    },
-    {
         "uri": "/tools/servers-actionhero",
         "title": "Actionhero",
         "content": "\nMulti-transport Node.js API server with integrated cluster capabilities and delayed tasks.",
