@@ -46,7 +46,7 @@ echo '
 * [Dropwizard](https://github.com/dropwizard/dropwizard) - A framework for developing ops-friendly, high-performance, RESTful web services.
 - [Rest.li](http://rest.li/): REST framework using type-safe bindings and asynchronous, non-blocking IO.
 - [Jersey](https://jersey.java.net/): RESTful web services in Java.
-- [Spring Boot](https://projects.spring.io/spring-boot/): RESTful Web Service using Spring, high-performance and little configuration needed.
+- [Spring Boot](https://spring.io/projects/spring-boot): Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can just run.
 - [Metamug Mason](https://github.com/metamug/mason): Create REST APIs with JSP tags and SQL. Edit and hot deploy REST resources on the server.
 ' | ./venv/bin/python3 importer/listing_data_builder.py --category servers --tags "java"
 

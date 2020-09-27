@@ -18,7 +18,7 @@ Set up API Resources in following categories
 - [ ] Testing 
 - [ ] Tools
  
-## ETL 
+## ETL 
 
 ```
 $ ./importer/all_commands.sh && ./importer/all_screenshots.sh && ./importer/all_md_generator.sh && make serve
@@ -40,7 +40,7 @@ $ ./importer/resize-screenshots.sh # only if any new screenshot is required
 - [x] Optimise images
 - [x] Create logo 
 
-## Commands
+## Commands
 
 Export website URLs from database
 
