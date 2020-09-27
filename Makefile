@@ -22,13 +22,13 @@ commit-all: ## Push generated documentation to Github
 database: ## Re-build database
 	./importer/all_commands.sh
 
-screenshots: ## Re-download screenshots from websites
+screenshots: ## Re-download screenshots from websites
 	./importer/all_screenshots.sh
 
-resize: ## Resze screenshots
+resize: ## Resize screenshots
 	./importer/resize-screenshots.sh
 
-content: ## Generate markdown from database
+content: ## Generate markdown from database
 	./importer/all_md_generator.sh
 
 deps: ## Re-install dependencies
